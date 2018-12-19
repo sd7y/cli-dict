@@ -1700,7 +1700,8 @@
   {
     "word": "force",
     "queryHistory": [
-      "2018-11-28 13:57:41"
+      "2018-11-28 13:57:41",
+      "2018-12-13 10:02:41"
     ],
     "result": {
       "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%8A%9B&langType=zh-CHS&sign=3BDFF9C26903C1F6663C5844DD621B0D&salt=1543384661184&voice=4&format=mp3&appKey=26b9cf8010d46779",
@@ -3414,7 +3415,8 @@
   {
     "word": "refer",
     "queryHistory": [
-      "2018-12-03 10:22:22"
+      "2018-12-03 10:22:22",
+      "2018-12-12 13:45:52"
     ],
     "result": {
       "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E8%AF%B7%E5%8F%82%E8%80%83&langType=zh-CHS&sign=AAA3C92327D391D930A03754A1AB90E4&salt=1543803742566&voice=4&format=mp3&appKey=26b9cf8010d46779",
@@ -5104,7 +5106,8 @@
   {
     "word": "corresponding",
     "queryHistory": [
-      "2018-12-03 18:31:36"
+      "2018-12-03 18:31:36",
+      "2018-12-13 11:34:32"
     ],
     "result": {
       "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E7%9B%B8%E5%BA%94%E7%9A%84&langType=zh-CHS&sign=A7802050DA868195984DEBCFCB85D944&salt=1543833096479&voice=4&format=mp3&appKey=26b9cf8010d46779",
@@ -6473,7 +6476,8 @@
   {
     "word": "完成",
     "queryHistory": [
-      "2018-12-04 18:18:46"
+      "2018-12-04 18:18:46",
+      "2018-12-18 18:48:54"
     ],
     "result": {
       "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=complete&langType=en&sign=F13982D5F023412DF1C08761FBFCC1F8&salt=1543918726664&voice=4&format=mp3&appKey=26b9cf8010d46779",
@@ -6532,7 +6536,8 @@
   {
     "word": "complete",
     "queryHistory": [
-      "2018-12-04 18:18:51"
+      "2018-12-04 18:18:51",
+      "2018-12-18 18:49:49"
     ],
     "result": {
       "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%AE%8C%E6%95%B4%E7%9A%84&langType=zh-CHS&sign=D984C6FD2EB77AA70C9287470E72E21C&salt=1543918731989&voice=4&format=mp3&appKey=26b9cf8010d46779",
@@ -8077,7 +8082,8 @@
   {
     "word": "profile",
     "queryHistory": [
-      "2018-12-07 17:21:48"
+      "2018-12-07 17:21:48",
+      "2018-12-14 10:37:27"
     ],
     "result": {
       "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6&langType=zh-CHS&sign=B12EF15818E10492648001AAC6CFC2AC&salt=1544174508842&voice=4&format=mp3&appKey=26b9cf8010d46779",
@@ -9792,7 +9798,8 @@
   {
     "word": "参考",
     "queryHistory": [
-      "2018-12-12 13:28:24"
+      "2018-12-12 13:28:24",
+      "2018-12-19 09:49:22"
     ],
     "result": {
       "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=reference&langType=en&sign=8EA5967836E8A043F4EF03A975B7009B&salt=1544592504829&voice=4&format=mp3&appKey=26b9cf8010d46779",
@@ -9937,6 +9944,1972 @@
       },
       "l": "EN2zh-CHS",
       "speakUrl": "http://openapi.youdao.com/ttsapi?q=reference&langType=en&sign=D324DE838D5D82C817A05AEE2220697C&salt=1544592544581&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "cluster",
+    "queryHistory": [
+      "2018-12-12 14:57:46"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E9%9B%86%E7%BE%A4&langType=zh-CHS&sign=AD1FEEFE644A2AD7B2860ED806690C0C&salt=1544597866491&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "簇",
+            "群集",
+            "群",
+            "计算机集群"
+          ],
+          "key": "Cluster"
+        },
+        {
+          "value": [
+            "集束炸弹",
+            "束炸弹",
+            "集束弹",
+            "子母弹"
+          ],
+          "key": "cluster bomb"
+        },
+        {
+          "value": [
+            "丛集性头痛",
+            "组合性头痛",
+            "头痛群",
+            "丛发性头痛"
+          ],
+          "key": "cluster headache"
+        }
+      ],
+      "query": "cluster",
+      "translation": [
+        "集群"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=cluster"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=cluster"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "GMAT",
+          "IELTS",
+          "CET6",
+          "GRE",
+          "考研"
+        ],
+        "us-phonetic": "'klʌstɚ",
+        "phonetic": "'klʌstə",
+        "uk-phonetic": "'klʌstə",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=cluster&langType=en&sign=219036A1529BDF957A9E4DD932161740&salt=1544597866491&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 群；簇；丛；串",
+          "vi. 群聚；丛生",
+          "vt. 使聚集；聚集在某人的周围",
+          "n. (Cluster)人名；(英)克拉斯特"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=cluster&langType=en&sign=219036A1529BDF957A9E4DD932161740&salt=1544597866491&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=cluster&langType=en&sign=219036A1529BDF957A9E4DD932161740&salt=1544597866491&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "as well as",
+    "queryHistory": [
+      "2018-12-12 15:22:59"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E4%BB%A5%E5%8F%8A&langType=zh-CHS&sign=1B789DA8624F1B9F0C68EFE6F3657022&salt=1544599379477&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "也",
+            "除",
+            "而且",
+            "和"
+          ],
+          "key": "as well as"
+        },
+        {
+          "value": [
+            "除",
+            "也",
+            "除…之外",
+            "不仅…而且"
+          ],
+          "key": "as s well as"
+        },
+        {
+          "value": [
+            "雄酮"
+          ],
+          "key": "as the well as therosterone"
+        }
+      ],
+      "query": "as well as",
+      "translation": [
+        "以及"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=as+well+as"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=as+well+as"
+      },
+      "basic": {
+        "phonetic": "",
+        "uk-phonetic": "",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=as+well+as&langType=en&sign=E4051A7FA864B380B72510841D5954C1&salt=1544599379477&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "也；和…一样；不但…而且"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=as+well+as&langType=en&sign=E4051A7FA864B380B72510841D5954C1&salt=1544599379477&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=as+well+as&langType=en&sign=E4051A7FA864B380B72510841D5954C1&salt=1544599379477&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "required",
+    "queryHistory": [
+      "2018-12-12 15:23:11"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E8%A6%81%E6%B1%82&langType=zh-CHS&sign=02FE61E6795544C581C8981FFCC5FF2B&salt=1544599391135&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "必需的",
+            "必读",
+            "必修课",
+            "要求的"
+          ],
+          "key": "required"
+        },
+        {
+          "value": [
+            "法定准备金",
+            "存款准备金",
+            "法定预备金",
+            "应提准备"
+          ],
+          "key": "required reserves"
+        },
+        {
+          "value": [
+            "需求日期",
+            "规定日期",
+            "日期为必填项",
+            "日期必需"
+          ],
+          "key": "Date Required"
+        }
+      ],
+      "query": "required",
+      "translation": [
+        "要求"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=required"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=required"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "高中",
+          "IELTS",
+          "初中",
+          "CET4",
+          "商务英语"
+        ],
+        "us-phonetic": "rɪ'kwaɪrd",
+        "phonetic": "rɪ'kwaɪəd",
+        "uk-phonetic": "rɪ'kwaɪəd",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=required&langType=en&sign=2F15437892EFEBAD1AC0166B4057C34C&salt=1544599391135&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "adj. 必需的；（美）必修的",
+          "v. 需要（require的过去式及过去分词形式）；要求"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=required&langType=en&sign=2F15437892EFEBAD1AC0166B4057C34C&salt=1544599391135&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=required&langType=en&sign=2F15437892EFEBAD1AC0166B4057C34C&salt=1544599391135&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "persistence",
+    "queryHistory": [
+      "2018-12-13 11:34:51"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%8C%81%E4%B9%85%E6%80%A7&langType=zh-CHS&sign=1CF41BCDE8C2BEE4ABA8818D3B75EB5F&salt=1544672091629&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "坚持",
+            "毅力",
+            "持久性",
+            "坚持不懈"
+          ],
+          "key": "Persistence"
+        },
+        {
+          "value": [
+            "持久长度",
+            "相关长度",
+            "持续长度",
+            "构象保持长度"
+          ],
+          "key": "persistence length"
+        },
+        {
+          "value": [
+            "持久性提供者",
+            "提供者",
+            "持久化方案提供工具",
+            "暂留提供程序"
+          ],
+          "key": "Persistence Provider"
+        }
+      ],
+      "query": "persistence",
+      "translation": [
+        "持久性"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=persistence"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=persistence"
+      },
+      "basic": {
+        "exam_type": [
+          "GRE"
+        ],
+        "us-phonetic": "pɚ'sɪstəns",
+        "phonetic": "pə'sɪst(ə)ns",
+        "uk-phonetic": "pə'sɪst(ə)ns",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=persistence&langType=en&sign=7E19B8D80CF949B9DEDA27C7B35F112F&salt=1544672091629&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 持续；固执；存留；坚持不懈；毅力"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=persistence&langType=en&sign=7E19B8D80CF949B9DEDA27C7B35F112F&salt=1544672091629&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=persistence&langType=en&sign=7E19B8D80CF949B9DEDA27C7B35F112F&salt=1544672091629&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "redirect",
+    "queryHistory": [
+      "2018-12-13 13:36:23"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E9%87%8D%E5%AE%9A%E5%90%91&langType=zh-CHS&sign=E25AE5A8C3B778C53EFAD7ABE0C51F38&salt=1544679382893&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "重定向",
+            "重新导向",
+            "使改方向",
+            "更改"
+          ],
+          "key": "Redirect"
+        },
+        {
+          "value": [
+            "重定向页面"
+          ],
+          "key": "redirect page"
+        },
+        {
+          "value": [
+            "重新导向方案",
+            "重定向模式",
+            "重新导向"
+          ],
+          "key": "redirect scheme"
+        }
+      ],
+      "query": "redirect",
+      "translation": [
+        "重定向"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=redirect"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=redirect"
+      },
+      "basic": {
+        "exam_type": [
+          "SAT",
+          "GMAT",
+          "GRE"
+        ],
+        "us-phonetic": "[ˌridɪˈrɛkt,-daɪ-]",
+        "phonetic": "[ˌri:dəˈrekt]",
+        "uk-phonetic": "[ˌri:dəˈrekt]",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=redirect&langType=en&sign=0BF6A229CA5688FE52A6C10F9DD2F805&salt=1544679382893&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "vt. 使改方向；重新寄送",
+          "adj. 再直接的",
+          "n. 再直接询问"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=redirect&langType=en&sign=0BF6A229CA5688FE52A6C10F9DD2F805&salt=1544679382893&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=redirect&langType=en&sign=0BF6A229CA5688FE52A6C10F9DD2F805&salt=1544679382893&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "retrieve",
+    "queryHistory": [
+      "2018-12-13 13:40:57"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%A3%80%E7%B4%A2&langType=zh-CHS&sign=E18F7EACB2A50C6A4EEAF52C8DBC15DE&salt=1544679657481&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "检索",
+            "重新得到",
+            "挽回",
+            "救球"
+          ],
+          "key": "retrieve"
+        },
+        {
+          "value": [
+            "数据检索",
+            "检索数据",
+            "数据回收",
+            "数据采集"
+          ],
+          "key": "data retrieve"
+        },
+        {
+          "value": [
+            "取得样图",
+            "调用图样"
+          ],
+          "key": "Retrieve Pattern"
+        }
+      ],
+      "query": "retrieve",
+      "translation": [
+        "检索"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=retrieve"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=retrieve"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "SAT",
+          "GMAT",
+          "CET6",
+          "GRE",
+          "考研"
+        ],
+        "us-phonetic": "rɪ'triv",
+        "phonetic": "rɪ'triːv",
+        "uk-phonetic": "rɪ'triːv",
+        "wfs": [
+          {
+            "wf": {
+              "name": "过去式",
+              "value": "retrieved"
+            }
+          },
+          {
+            "wf": {
+              "name": "过去分词",
+              "value": "retrieved"
+            }
+          },
+          {
+            "wf": {
+              "name": "现在分词",
+              "value": "retrieving"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=retrieve&langType=en&sign=8796903C5C4F797DBA728A8921091818&salt=1544679657481&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "vt. [计] 检索；恢复；重新得到",
+          "vi. 找回猎物",
+          "n. [计] 检索；恢复，取回"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=retrieve&langType=en&sign=8796903C5C4F797DBA728A8921091818&salt=1544679657481&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=retrieve&langType=en&sign=8796903C5C4F797DBA728A8921091818&salt=1544679657481&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "portable",
+    "queryHistory": [
+      "2018-12-13 15:01:42"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E7%AC%94%E8%AE%B0%E6%9C%AC&langType=zh-CHS&sign=65750AAF28796522AFD7BF9AEE4AE3B8&salt=1544684502752&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "query": "portable",
+      "translation": [
+        "笔记本"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=fr&q=portable"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=fr&q=portable"
+      },
+      "l": "fr2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=portable&langType=fr&sign=D1A60DADB8E76CBB91578CABD3AFDFF4&salt=1544684502752&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "implement",
+    "queryHistory": [
+      "2018-12-14 11:10:02"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%AE%9E%E7%8E%B0&langType=zh-CHS&sign=3E8F08E75971CE6B26E77DACCE66163C&salt=1544757002483&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "实现",
+            "完成",
+            "贯彻",
+            "执行"
+          ],
+          "key": "implement"
+        },
+        {
+          "value": [
+            "农具",
+            "农业机具"
+          ],
+          "key": "agricultural implement"
+        },
+        {
+          "value": [
+            "执行改进"
+          ],
+          "key": "Implement Improvements"
+        }
+      ],
+      "query": "implement",
+      "translation": [
+        "实现"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=implement"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=implement"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "SAT",
+          "GMAT",
+          "IELTS",
+          "CET6",
+          "GRE",
+          "CET4",
+          "商务英语",
+          "考研"
+        ],
+        "us-phonetic": "'ɪmplɪmɛnt",
+        "phonetic": "'ɪmplɪm(ə)nt",
+        "uk-phonetic": "'ɪmplɪm(ə)nt",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=implement&langType=en&sign=C863EB1B7076F3EB044A5A96BC3C06CF&salt=1544757002483&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "vt. 实施，执行；实现，使生效",
+          "n. 工具，器具；手段"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=implement&langType=en&sign=C863EB1B7076F3EB044A5A96BC3C06CF&salt=1544757002483&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=implement&langType=en&sign=C863EB1B7076F3EB044A5A96BC3C06CF&salt=1544757002483&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "implementation",
+    "queryHistory": [
+      "2018-12-14 11:11:20"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%AE%9E%E7%8E%B0&langType=zh-CHS&sign=7D9008B2A54F8D772B2DE2CFDE0C72C6&salt=1544757080206&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "实现",
+            "实施",
+            "执行",
+            "实现品"
+          ],
+          "key": "implementation"
+        },
+        {
+          "value": [
+            "实现视图",
+            "实施视图",
+            "实作观点",
+            "实现场景"
+          ],
+          "key": "Implementation View"
+        },
+        {
+          "value": [
+            "基实现"
+          ],
+          "key": "base implementation"
+        }
+      ],
+      "query": "implementation",
+      "translation": [
+        "实现"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=implementation"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=implementation"
+      },
+      "basic": {
+        "exam_type": [
+          "GMAT",
+          "GRE",
+          "商务英语"
+        ],
+        "phonetic": "ɪmplɪmen'teɪʃ(ə)n",
+        "uk-phonetic": "ɪmplɪmen'teɪʃ(ə)n",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=implementation&langType=en&sign=29EA075D4BFAEBEE0BDDC62731C77598&salt=1544757080206&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. [计] 实现；履行；安装启用"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=implementation&langType=en&sign=29EA075D4BFAEBEE0BDDC62731C77598&salt=1544757080206&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=implementation&langType=en&sign=29EA075D4BFAEBEE0BDDC62731C77598&salt=1544757080206&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "recurse",
+    "queryHistory": [
+      "2018-12-14 15:22:49"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E9%80%92%E5%BD%92&langType=zh-CHS&sign=3DD6546891EDA898D88E360D51EFFD06&salt=1544772170013&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "递归",
+            "子目录",
+            "包含子目录"
+          ],
+          "key": "Recurse"
+        },
+        {
+          "value": [
+            "递归子目录",
+            "会无穷子目录"
+          ],
+          "key": "Recurse subdirectories"
+        },
+        {
+          "value": [
+            "递归子目录"
+          ],
+          "key": "r Recurse subdirectories"
+        }
+      ],
+      "query": "recurse",
+      "translation": [
+        "递归"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=recurse"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=recurse"
+      },
+      "basic": {
+        "exam_type": null,
+        "us-phonetic": null,
+        "phonetic": null,
+        "uk-phonetic": null,
+        "wfs": null,
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=recurse&langType=en&sign=5C5AE6132FA97E5329CC1DE57354C3D0&salt=1544772170013&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 递归（算法）",
+          "v. 递归"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=recurse&langType=en&sign=5C5AE6132FA97E5329CC1DE57354C3D0&salt=1544772170013&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=recurse&langType=en&sign=5C5AE6132FA97E5329CC1DE57354C3D0&salt=1544772170013&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "nested",
+    "queryHistory": [
+      "2018-12-14 17:59:47"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%B5%8C%E5%A5%97%E7%9A%84&langType=zh-CHS&sign=7CD358FBE2599D8559941FFD1004F2C6&salt=1544781587868&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "嵌套",
+            "巢状式",
+            "巢状",
+            "窝形的"
+          ],
+          "key": "nested"
+        },
+        {
+          "value": [
+            "嵌套表",
+            "嵌套表段",
+            "内嵌表",
+            "复合变量嵌套表"
+          ],
+          "key": "nested table"
+        },
+        {
+          "value": [
+            "嵌套宏命令",
+            "多套巨指令",
+            "巢状群组",
+            "嵌套宏指令"
+          ],
+          "key": "nested macros"
+        }
+      ],
+      "query": "nested",
+      "translation": [
+        "嵌套的"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=nested"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=nested"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "IELTS",
+          "CET4",
+          "考研"
+        ],
+        "phonetic": "'nestɪd",
+        "uk-phonetic": "'nestɪd",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=nested&langType=en&sign=87C2FD524E553B1F203F8E6758AD2360&salt=1544781587868&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "adj. 嵌套的，内装的",
+          "v. 筑巢；嵌入（nest的过去分词）"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=nested&langType=en&sign=87C2FD524E553B1F203F8E6758AD2360&salt=1544781587868&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=nested&langType=en&sign=87C2FD524E553B1F203F8E6758AD2360&salt=1544781587868&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "unexpectedly",
+    "queryHistory": [
+      "2018-12-17 09:33:58"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%87%BA%E4%B9%8E%E6%84%8F%E6%96%99%E5%9C%B0&langType=zh-CHS&sign=A1BD5A44227792478A54CCF904E55F4D&salt=1545010438849&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "没想到",
+            "竟然",
+            "竟",
+            "不意"
+          ],
+          "key": "Unexpectedly"
+        },
+        {
+          "value": [
+            "是意外",
+            "是意外退出"
+          ],
+          "key": "Is unexpectedly"
+        },
+        {
+          "value": [
+            "不期而至",
+            "突如其来"
+          ],
+          "key": "arrive unexpectedly"
+        }
+      ],
+      "query": "unexpectedly",
+      "translation": [
+        "出乎意料地"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=unexpectedly"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=unexpectedly"
+      },
+      "basic": {
+        "exam_type": [
+          "GRE"
+        ],
+        "phonetic": "'ʌnik'spektidli",
+        "uk-phonetic": "'ʌnik'spektidli",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=unexpectedly&langType=en&sign=42E52526A7BB96859D17348F936D8369&salt=1545010438849&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "adv. 出乎意料地，意外地"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=unexpectedly&langType=en&sign=42E52526A7BB96859D17348F936D8369&salt=1545010438849&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=unexpectedly&langType=en&sign=42E52526A7BB96859D17348F936D8369&salt=1545010438849&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "permission",
+    "queryHistory": [
+      "2018-12-17 10:31:26"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E8%AE%B8%E5%8F%AF&langType=zh-CHS&sign=9D9723F8AFB452BD142E87F84BA45767&salt=1545013886390&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "权限",
+            "许可",
+            "允许",
+            "同意"
+          ],
+          "key": "permission"
+        },
+        {
+          "value": [
+            "请求许可",
+            "恳求答应",
+            "鼻肭笮砜",
+            "用问句征求同意或许可"
+          ],
+          "key": "Asking permission"
+        },
+        {
+          "value": [
+            "规划许可",
+            "建筑许可",
+            "规划准证",
+            "开发许可制"
+          ],
+          "key": "planning permission"
+        }
+      ],
+      "query": "permission",
+      "translation": [
+        "许可"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=permission"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=permission"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "高中",
+          "IELTS",
+          "初中",
+          "CET4",
+          "考研"
+        ],
+        "us-phonetic": "pɚ'mɪʃən",
+        "phonetic": "pə'mɪʃ(ə)n",
+        "uk-phonetic": "pə'mɪʃ(ə)n",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=permission&langType=en&sign=35112C3F6EDA2CF5973510B010F24E07&salt=1545013886390&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 允许，许可"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=permission&langType=en&sign=35112C3F6EDA2CF5973510B010F24E07&salt=1545013886390&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=permission&langType=en&sign=35112C3F6EDA2CF5973510B010F24E07&salt=1545013886390&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "security",
+    "queryHistory": [
+      "2018-12-17 13:36:31"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%AE%89%E5%85%A8&langType=zh-CHS&sign=E7DE11C29ABCD49D919AA8F688542726&salt=1545024991105&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "安全",
+            "安全性",
+            "证券",
+            "保安"
+          ],
+          "key": "security"
+        },
+        {
+          "value": [
+            "网络安全",
+            "网路安全",
+            "网络保密",
+            "网络安全性"
+          ],
+          "key": "network security"
+        },
+        {
+          "value": [
+            "安理会",
+            "安全理事会",
+            "联合国安全理事会",
+            "联合国安理会"
+          ],
+          "key": "Security Council"
+        }
+      ],
+      "query": "security",
+      "translation": [
+        "安全"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=security"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=security"
+      },
+      "basic": {
+        "exam_type": [
+          "高中",
+          "IELTS",
+          "CET6",
+          "GRE",
+          "CET4",
+          "商务英语",
+          "考研"
+        ],
+        "us-phonetic": "sə'kjʊrəti",
+        "phonetic": "sɪ'kjʊərətɪ",
+        "uk-phonetic": "sɪ'kjʊərətɪ",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=security&langType=en&sign=9AE7DBE62D38BD009408B9F552F15C6A&salt=1545024991105&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 安全，安全性；保证；证券；抵押品",
+          "adj. 安全的；保安的；保密的"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=security&langType=en&sign=9AE7DBE62D38BD009408B9F552F15C6A&salt=1545024991105&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=security&langType=en&sign=9AE7DBE62D38BD009408B9F552F15C6A&salt=1545024991105&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "investigate",
+    "queryHistory": [
+      "2018-12-17 13:38:52"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E8%B0%83%E6%9F%A5&langType=zh-CHS&sign=690205BA6C4A66D8FC0ACC93188BD025&salt=1545025132114&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "调查",
+            "探讨",
+            "追究",
+            "研究"
+          ],
+          "key": "investigate"
+        },
+        {
+          "value": [
+            "调查"
+          ],
+          "key": "grill investigate"
+        },
+        {
+          "value": [
+            "调查街头劫案"
+          ],
+          "key": "Investigate Mugging"
+        }
+      ],
+      "query": "investigate",
+      "translation": [
+        "调查"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=investigate"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=investigate"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "GMAT",
+          "IELTS",
+          "CET6",
+          "GRE",
+          "CET4",
+          "商务英语",
+          "考研"
+        ],
+        "us-phonetic": "ɪn'vɛstɪɡet",
+        "phonetic": "ɪn'vestɪgeɪt",
+        "uk-phonetic": "ɪn'vestɪgeɪt",
+        "wfs": [
+          {
+            "wf": {
+              "name": "过去式",
+              "value": "investigated"
+            }
+          },
+          {
+            "wf": {
+              "name": "过去分词",
+              "value": "investigated"
+            }
+          },
+          {
+            "wf": {
+              "name": "现在分词",
+              "value": "investigating"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=investigate&langType=en&sign=5284A0075940A7EB6AFA498B3A3B64A3&salt=1545025132114&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "v. 调查；研究"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=investigate&langType=en&sign=5284A0075940A7EB6AFA498B3A3B64A3&salt=1545025132114&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=investigate&langType=en&sign=5284A0075940A7EB6AFA498B3A3B64A3&salt=1545025132114&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "notify",
+    "queryHistory": [
+      "2018-12-18 15:28:23"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E9%80%9A%E7%9F%A5&langType=zh-CHS&sign=5988860FD3EECE2446A72398F0F7088B&salt=1545118102858&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "通知",
+            "告知",
+            "报告",
+            "通报"
+          ],
+          "key": "notify"
+        },
+        {
+          "value": [
+            "公告号机构",
+            "指定机构",
+            "证机构",
+            "公告机构"
+          ],
+          "key": "Notify Body"
+        },
+        {
+          "value": [
+            "控件通知"
+          ],
+          "key": "Notify Message"
+        }
+      ],
+      "query": "notify",
+      "translation": [
+        "通知"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=notify"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=notify"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "GMAT",
+          "IELTS",
+          "CET6",
+          "CET4",
+          "商务英语",
+          "考研"
+        ],
+        "us-phonetic": "'notə'fai",
+        "phonetic": "'nəʊtɪfaɪ",
+        "uk-phonetic": "'nəʊtɪfaɪ",
+        "wfs": [
+          {
+            "wf": {
+              "name": "过去式",
+              "value": "notified"
+            }
+          },
+          {
+            "wf": {
+              "name": "过去分词",
+              "value": "notified"
+            }
+          },
+          {
+            "wf": {
+              "name": "现在分词",
+              "value": "notifying"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=notify&langType=en&sign=831F9755EA51DDD88A7A3C2CB193BF06&salt=1545118102858&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "vt. 通告，通知；公布"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=notify&langType=en&sign=831F9755EA51DDD88A7A3C2CB193BF06&salt=1545118102858&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=notify&langType=en&sign=831F9755EA51DDD88A7A3C2CB193BF06&salt=1545118102858&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "measures",
+    "queryHistory": [
+      "2018-12-18 16:19:59"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%8E%AA%E6%96%BD&langType=zh-CHS&sign=F414BB96D6F25427BBBF2EAF7977317D&salt=1545121199799&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "对策",
+            "措施",
+            "应对措施",
+            "路径"
+          ],
+          "key": "measures"
+        },
+        {
+          "value": [
+            "预防措施",
+            "防范措施",
+            "对策",
+            "防治措施"
+          ],
+          "key": "preventive measures"
+        },
+        {
+          "value": [
+            "控制措施",
+            "防治措施",
+            "治理措施",
+            "管理措施"
+          ],
+          "key": "control measures"
+        }
+      ],
+      "query": "measures",
+      "translation": [
+        "措施"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=measures"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=measures"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "高中",
+          "IELTS",
+          "CET4",
+          "商务英语"
+        ],
+        "us-phonetic": "mɛʒɚz",
+        "phonetic": "ˈmeʒə(r)z",
+        "uk-phonetic": "ˈmeʒə(r)z",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=measures&langType=en&sign=F2394B9C075AE0AF20A3BC4F21C48D67&salt=1545121199799&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 措施；层组（measure的复数）",
+          "v. 测量（measure的单三形式）",
+          "n. (Measures)人名；(英)梅热斯"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=measures&langType=en&sign=F2394B9C075AE0AF20A3BC4F21C48D67&salt=1545121199799&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=measures&langType=en&sign=F2394B9C075AE0AF20A3BC4F21C48D67&salt=1545121199799&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "metric",
+    "queryHistory": [
+      "2018-12-18 16:25:40"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%BA%A6%E8%A7%84&langType=zh-CHS&sign=1168FF6E9570AD26941A803C21DE2B49&salt=1545121540083&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "度量",
+            "公制的",
+            "十进制的",
+            "公制牙"
+          ],
+          "key": "metric"
+        },
+        {
+          "value": [
+            "公吨",
+            "米制吨",
+            "公制吨",
+            "公顿"
+          ],
+          "key": "metric ton"
+        },
+        {
+          "value": [
+            "度量映射",
+            "尺度地图",
+            "度量地图",
+            "米制地图"
+          ],
+          "key": "metric map"
+        }
+      ],
+      "query": "metric",
+      "translation": [
+        "度规"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=metric"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=metric"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "GMAT",
+          "CET4",
+          "考研"
+        ],
+        "us-phonetic": "'mɛtrɪk",
+        "phonetic": "'metrɪk",
+        "uk-phonetic": "'metrɪk",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=metric&langType=en&sign=03D8A3380143D4DB72AE300201309940&salt=1545121540083&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "adj. 公制的；米制的；公尺的",
+          "n. 度量标准"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=metric&langType=en&sign=03D8A3380143D4DB72AE300201309940&salt=1545121540083&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=metric&langType=en&sign=03D8A3380143D4DB72AE300201309940&salt=1545121540083&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "periods",
+    "queryHistory": [
+      "2018-12-18 16:47:45",
+      "2018-12-18 17:26:21"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%9C%9F&langType=zh-CHS&sign=7A88580095D3B67789E800F1EAE98E18&salt=1545122865798&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "月经",
+            "周期",
+            "及句号",
+            "学时"
+          ],
+          "key": "periods"
+        },
+        {
+          "value": [
+            "期间",
+            "中期",
+            "企业还应编制中期"
+          ],
+          "key": "interim periods"
+        },
+        {
+          "value": [
+            "潜伏期"
+          ],
+          "key": "Incubation periods"
+        }
+      ],
+      "query": "periods",
+      "translation": [
+        "期"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=periods"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=periods"
+      },
+      "basic": {
+        "exam_type": [
+          "高中",
+          "SAT",
+          "初中",
+          "商务英语"
+        ],
+        "us-phonetic": "pɪrɪədz",
+        "phonetic": "pɪərɪədz",
+        "uk-phonetic": "pɪərɪədz",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=periods&langType=en&sign=16784E9E3220DA5AC737B0384BAE447F&salt=1545122865798&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 周期（period的复数）"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=periods&langType=en&sign=16784E9E3220DA5AC737B0384BAE447F&salt=1545122865798&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=periods&langType=en&sign=16784E9E3220DA5AC737B0384BAE447F&salt=1545122865798&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "coverage",
+    "queryHistory": [
+      "2018-12-18 17:37:04",
+      "2018-12-18 17:42:52"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%8A%A5%E9%81%93&langType=zh-CHS&sign=E07123FFC48AF0C3212CA4C5C1E4A3BD&salt=1545125824810&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "新闻报道",
+            "覆盖",
+            "保险范围",
+            "保险总额"
+          ],
+          "key": "coverage"
+        },
+        {
+          "value": [
+            "建筑密度",
+            "上盖面积",
+            "建蔽率",
+            "覆盖率"
+          ],
+          "key": "site coverage"
+        },
+        {
+          "value": [
+            "覆盖率",
+            "上盖面积比例"
+          ],
+          "key": "coverage scale"
+        }
+      ],
+      "query": "coverage",
+      "translation": [
+        "报道"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=coverage"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=coverage"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "IELTS",
+          "CET6",
+          "GRE"
+        ],
+        "us-phonetic": "'kʌvərɪdʒ",
+        "phonetic": "'kʌv(ə)rɪdʒ",
+        "uk-phonetic": "'kʌv(ə)rɪdʒ",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=coverage&langType=en&sign=9001352F7F7154063D70EC0F32EFE6DC&salt=1545125824810&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 覆盖，覆盖范围；新闻报道"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=coverage&langType=en&sign=9001352F7F7154063D70EC0F32EFE6DC&salt=1545125824810&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=coverage&langType=en&sign=AEE76BCF08E4CFD12B6F3C3272BCEBA6&salt=1545125824809&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "covered",
+    "queryHistory": [
+      "2018-12-18 17:43:02"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E8%A6%86%E7%9B%96&langType=zh-CHS&sign=26790C008AD5DFC6D8F1AF42109A42C1&salt=1545126182739&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "布满",
+            "铺上",
+            "挂满",
+            "满身"
+          ],
+          "key": "Covered"
+        },
+        {
+          "value": [
+            "焊条",
+            "被覆焊条",
+            "包覆焊条",
+            "敷料焊条"
+          ],
+          "key": "covered electrode"
+        },
+        {
+          "value": [
+            "资产担保债券",
+            "担保债券",
+            "有资产担保债券",
+            "资产支持证券"
+          ],
+          "key": "Covered Bond"
+        }
+      ],
+      "query": "covered",
+      "translation": [
+        "覆盖"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=covered"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=covered"
+      },
+      "basic": {
+        "exam_type": [
+          "高中",
+          "IELTS",
+          "初中",
+          "商务英语"
+        ],
+        "us-phonetic": "'kʌvɚd",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=covered&langType=en&sign=0B7E27256F28B4C6AC5BDC915CB2596D&salt=1545126182739&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "adj. 覆盖了的；隐蔽着的；有屋顶的",
+          "v. 覆盖；包括；掩护（cover的过去分词）"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=covered&langType=en&sign=0B7E27256F28B4C6AC5BDC915CB2596D&salt=1545126182739&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=covered&langType=en&sign=0B7E27256F28B4C6AC5BDC915CB2596D&salt=1545126182739&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "completion",
+    "queryHistory": [
+      "2018-12-18 18:49:10"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%AE%8C%E6%88%90&langType=zh-CHS&sign=26EEA6284302B6256467112C58E121F7&salt=1545130150122&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "完备化",
+            "完成",
+            "完工",
+            "竣工"
+          ],
+          "key": "Completion"
+        },
+        {
+          "value": [
+            "会话技能",
+            "完成对话",
+            "补全对话"
+          ],
+          "key": "dialogue completion"
+        },
+        {
+          "value": [
+            "大致竣工",
+            "大致完工",
+            "基本完工",
+            "大体上已完成"
+          ],
+          "key": "substantial completion"
+        }
+      ],
+      "query": "completion",
+      "translation": [
+        "完成"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=completion"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=completion"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "GRE"
+        ],
+        "us-phonetic": "kəm'pliʃən",
+        "phonetic": "kəm'pliːʃn",
+        "uk-phonetic": "kəm'pliːʃn",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=completion&langType=en&sign=E09BCA9BD2EB60032647B3ADFAA39634&salt=1545130150122&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 完成，结束；实现"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=completion&langType=en&sign=E09BCA9BD2EB60032647B3ADFAA39634&salt=1545130150122&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=completion&langType=en&sign=E09BCA9BD2EB60032647B3ADFAA39634&salt=1545130150122&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "完成的",
+    "queryHistory": [
+      "2018-12-18 18:49:37"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=To+complete+the&langType=en&sign=D896CFBBB146AFA68DD9B7BB965FA820&salt=1545130177760&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "accomplished",
+            "complete",
+            "finished",
+            "perfective"
+          ],
+          "key": "完成的"
+        },
+        {
+          "value": [
+            "Unfinished Business",
+            "More Unfinished Business",
+            "Alektra Blue Asa Akira",
+            "Partially done work"
+          ],
+          "key": "未完成的任务"
+        },
+        {
+          "value": [
+            "A Film Unfinished"
+          ],
+          "key": "未完成的电影"
+        }
+      ],
+      "query": "完成的",
+      "translation": [
+        "To complete the"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=%E5%AE%8C%E6%88%90%E7%9A%84"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=%E5%AE%8C%E6%88%90%E7%9A%84"
+      },
+      "basic": {
+        "explains": [
+          "complete",
+          "finished",
+          "accomplished",
+          "full",
+          "perfective"
+        ]
+      },
+      "l": "zh-CHS2EN",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%AE%8C%E6%88%90%E7%9A%84&langType=zh-CHS&sign=334DF4CC7BAD7F1DA0B17206D46004F8&salt=1545130177760&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "completed",
+    "queryHistory": [
+      "2018-12-18 18:49:53"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%AE%8C%E6%88%90&langType=zh-CHS&sign=6AA776DEBCE8EED81DB7D2866B5F678C&salt=1545130193634&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "建成",
+            "已完成",
+            "落成",
+            "办妥"
+          ],
+          "key": "Completed"
+        },
+        {
+          "value": [
+            "所学课程",
+            "所修课程",
+            "所学课",
+            "所学"
+          ],
+          "key": "courses completed"
+        },
+        {
+          "value": [
+            "完成者",
+            "完成的",
+            "闪光粉",
+            "完了"
+          ],
+          "key": "Completed by"
+        }
+      ],
+      "query": "completed",
+      "translation": [
+        "完成"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=completed"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=completed"
+      },
+      "basic": {
+        "exam_type": [
+          "高中",
+          "IELTS",
+          "初中",
+          "商务英语"
+        ],
+        "us-phonetic": "kəm'plitɪd",
+        "phonetic": "kəm'plitɪd",
+        "uk-phonetic": "kəm'plitɪd",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=completed&langType=en&sign=D81C7BEDC5F5CE912703BDF0C54B5A3A&salt=1545130193634&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "adj. 完整的；完全的",
+          "v. 完成（complete的过去分词）"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=completed&langType=en&sign=D81C7BEDC5F5CE912703BDF0C54B5A3A&salt=1545130193634&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=completed&langType=en&sign=D81C7BEDC5F5CE912703BDF0C54B5A3A&salt=1545130193634&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "leak",
+    "queryHistory": [
+      "2018-12-19 09:31:45"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%B3%84%E6%BC%8F&langType=zh-CHS&sign=740ECDB4F0BE3DF2A5EADE34B9DB689C&salt=1545183104945&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "泄漏",
+            "漏",
+            "泄露",
+            "浮出"
+          ],
+          "key": "leak"
+        },
+        {
+          "value": [
+            "资源泄露",
+            "资源泄漏",
+            "系统资源泄露",
+            "资源流失"
+          ],
+          "key": "resource leak"
+        },
+        {
+          "value": [
+            "气体泄漏",
+            "气体泄露",
+            "漏气气体泄露",
+            "漏气"
+          ],
+          "key": "gas leak"
+        }
+      ],
+      "query": "leak",
+      "translation": [
+        "泄漏"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=leak"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=leak"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "高中",
+          "IELTS",
+          "GRE",
+          "CET4",
+          "考研"
+        ],
+        "us-phonetic": "lik",
+        "phonetic": "liːk",
+        "uk-phonetic": "liːk",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=leak&langType=en&sign=2D7D1DDBE431EA29EE4342166114C5B1&salt=1545183104945&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 泄漏；漏洞，裂缝",
+          "vt. 使渗漏，泄露",
+          "vi. 漏，渗；泄漏出去",
+          "n. (Leak)人名；(英)利克；(东南亚国家华语)力"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=leak&langType=en&sign=2D7D1DDBE431EA29EE4342166114C5B1&salt=1545183104945&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=leak&langType=en&sign=2D7D1DDBE431EA29EE4342166114C5B1&salt=1545183104945&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "facets",
+    "queryHistory": [
+      "2018-12-19 09:40:40"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%96%B9%E9%9D%A2&langType=zh-CHS&sign=BF3DFE9AC0799390DECE439E5A229F96&salt=1545183640541&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "面片",
+            "面状",
+            "钻石刻面体",
+            "切面或瓣面"
+          ],
+          "key": "Facets"
+        },
+        {
+          "value": [
+            "多面向模式"
+          ],
+          "key": "Facets Model"
+        },
+        {
+          "value": [
+            "技巧面"
+          ],
+          "key": "skill facets"
+        }
+      ],
+      "query": "facets",
+      "translation": [
+        "方面"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=facets"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=facets"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "SAT",
+          "CET6",
+          "GRE"
+        ],
+        "phonetic": "",
+        "uk-phonetic": "",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=facets&langType=en&sign=1EBF326B6DE161C903779BFE4C8B70A1&salt=1545183640541&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 面状，[材] 刻面；切面或瓣面（facet的复数形式）"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=facets&langType=en&sign=1EBF326B6DE161C903779BFE4C8B70A1&salt=1545183640541&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=facets&langType=en&sign=1EBF326B6DE161C903779BFE4C8B70A1&salt=1545183640541&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "risk",
+    "queryHistory": [
+      "2018-12-19 09:41:59"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E9%A3%8E%E9%99%A9&langType=zh-CHS&sign=174A5787C196778FF5F06081E004DDBF&salt=1545183719396&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "风险",
+            "冒险",
+            "战国风云",
+            "危险"
+          ],
+          "key": "Risk"
+        },
+        {
+          "value": [
+            "风险溢价",
+            "风险溢酬",
+            "风险贴水",
+            "风险保费"
+          ],
+          "key": "Risk premium"
+        },
+        {
+          "value": [
+            "系统性风险",
+            "系统风险",
+            "体系性风险",
+            "不可避免的风险"
+          ],
+          "key": "systematic risk"
+        }
+      ],
+      "query": "risk",
+      "translation": [
+        "风险"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=risk"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=risk"
+      },
+      "basic": {
+        "exam_type": [
+          "高中",
+          "IELTS",
+          "初中",
+          "CET4",
+          "商务英语",
+          "考研"
+        ],
+        "us-phonetic": "rɪsk",
+        "phonetic": "rɪsk",
+        "uk-phonetic": "rɪsk",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=risk&langType=en&sign=B9F3FA109A8AD669E70AD168146C9256&salt=1545183719396&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 风险；危险；冒险",
+          "vt. 冒…的危险",
+          "n. (Risk)人名；(英、阿拉伯)里斯克"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=risk&langType=en&sign=B9F3FA109A8AD669E70AD168146C9256&salt=1545183719396&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=risk&langType=en&sign=B9F3FA109A8AD669E70AD168146C9256&salt=1545183719396&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "research",
+    "queryHistory": [
+      "2018-12-19 09:42:15"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E7%A0%94%E7%A9%B6&langType=zh-CHS&sign=2AB8B0CF1EF5520124DA4CF9CF03CD60&salt=1545183735587&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "研究",
+            "调查",
+            "产品研发",
+            "医学院"
+          ],
+          "key": "Research"
+        },
+        {
+          "value": [
+            "研究所",
+            "研究中心",
+            "研究院",
+            "研究机构"
+          ],
+          "key": "research institute"
+        },
+        {
+          "value": [
+            "定性研究",
+            "质性研究",
+            "质的研究",
+            "质化研究"
+          ],
+          "key": "Qualitative Research"
+        }
+      ],
+      "query": "research",
+      "translation": [
+        "研究"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=research"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=research"
+      },
+      "basic": {
+        "exam_type": [
+          "高中",
+          "商务英语"
+        ],
+        "us-phonetic": "'risɝtʃ",
+        "phonetic": "rɪ'sɜːtʃ; 'riːsɜːtʃ",
+        "uk-phonetic": "rɪ'sɜːtʃ; 'riːsɜːtʃ",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=research&langType=en&sign=A017CD4254C4CC89EFF37E74CD32AF83&salt=1545183735587&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 研究；调查",
+          "vi. 研究；调查",
+          "vt. 研究；调查",
+          "[ 过去式 researched 过去分词 researched 现在分词 researching ]"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=research&langType=en&sign=A017CD4254C4CC89EFF37E74CD32AF83&salt=1545183735587&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "EN2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=research&langType=en&sign=A017CD4254C4CC89EFF37E74CD32AF83&salt=1545183735587&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "粘贴",
+    "queryHistory": [
+      "2018-12-19 10:53:53"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=paste&langType=en&sign=B67A505AA76B68B49F3FCB2352865F30&salt=1545188032957&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "CTR",
+            "Paste",
+            "Ctrl",
+            "stick"
+          ],
+          "key": "粘贴"
+        },
+        {
+          "value": [
+            "Paste Into",
+            "Ctrl Shift",
+            "Paste e Into"
+          ],
+          "key": "粘贴入"
+        },
+        {
+          "value": [
+            "Paste Into",
+            "Shift+Ctrl+V Edit\\Paste Into",
+            "be pasted on to"
+          ],
+          "key": "粘贴到"
+        }
+      ],
+      "query": "粘贴",
+      "translation": [
+        "paste"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=%E7%B2%98%E8%B4%B4"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=%E7%B2%98%E8%B4%B4"
+      },
+      "basic": {
+        "explains": [
+          "paste",
+          "stick",
+          "stickup",
+          "affix",
+          "plaster"
+        ]
+      },
+      "l": "zh-CHS2EN",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=%E7%B2%98%E8%B4%B4&langType=zh-CHS&sign=E75DEBF76410820A3B1AFBCAE7F2F2AC&salt=1545188032957&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "按下",
+    "queryHistory": [
+      "2018-12-19 10:56:06"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=Press+the&langType=en&sign=1B7A044E3CAA718F22F3CEBD282433F6&salt=1545188166507&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "depress",
+            "Enter",
+            "MouseDown",
+            "Submit"
+          ],
+          "key": "按下"
+        },
+        {
+          "value": [
+            "bitwise down sample"
+          ],
+          "key": "按位下采样"
+        },
+        {
+          "value": [
+            "FormDblClick"
+          ],
+          "key": "被按二下"
+        }
+      ],
+      "query": "按下",
+      "translation": [
+        "Press the"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=%E6%8C%89%E4%B8%8B"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=%E6%8C%89%E4%B8%8B"
+      },
+      "basic": {
+        "explains": [
+          "press"
+        ]
+      },
+      "l": "zh-CHS2EN",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%8C%89%E4%B8%8B&langType=zh-CHS&sign=C00E948F317718D91E34C6EBE4288A54&salt=1545188166507&voice=4&format=mp3&appKey=26b9cf8010d46779"
     }
   }
 ]
