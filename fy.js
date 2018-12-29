@@ -23,7 +23,11 @@ if (program.list) {
 } else if (program.sync) {
     syncWordList();
 } else if (program.delete) {
-    deleteWord(program.delete);
+    if (program.delete === true) {
+        deleteWord(program.args.join(' ').toLowerCase());
+    } else {
+        deleteWord(program.delete);
+    }
 } else {
     queryWord(program.args.join(' ').toLowerCase());
 }
@@ -77,7 +81,7 @@ function queryWord(query) {
                     console.log('    ' + basic.explains[i]);
                 }
             } else {
-                console.log(('\n' + query + ': ').yellow, translation.join(', '),  webdict.url.gray);
+                console.log(('\n' + query + ': ').yellow, translation.join(', '),  ((webdict && webdict.url) || '').gray);
             }
         
             console.log();
