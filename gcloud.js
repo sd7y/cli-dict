@@ -9,10 +9,15 @@ const translate = new Translate({
   projectId: projectId,
 });
 
+var program = require('commander');
+program.parse(process.argv);
 // The text to translate
-const text = 'Hello';
+const text = program.args.join(' ');
 // The target language
-const target = 'zh-cn';
+var target = 'en';
+if (/^[a-zA-Z]/.test(text)) {
+  target = 'zh-cn';
+}
 
 // Translates some text into Russian
 translate
@@ -20,10 +25,11 @@ translate
   .then(results => {
     const translation = results[0];
 
-    console.log(JSON.stringify(results));
+    // console.log(JSON.stringify(results));
 
-    console.log(`Text: ${text}`);
-    console.log(`Translation: ${translation}`);
+    // console.log(`Text: ${text}`);
+    // console.log(`Translation: ${translation}`);
+    console.log(translation);
   })
   .catch(err => {
     console.error('ERROR:', err);
