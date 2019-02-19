@@ -16683,5 +16683,598 @@
       "l": "EN2zh-CHS",
       "speakUrl": "http://openapi.youdao.com/ttsapi?q=protocol&langType=en&sign=24D6DC49C9D6813990F32046157E94F3&salt=1545985499220&voice=4&format=mp3&appKey=26b9cf8010d46779"
     }
+  },
+  {
+    "word": "degenerate",
+    "queryHistory": [
+      "2019-02-18 16:18:26"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E7%AE%80%E5%B9%B6&langType=zh-CHS&sign=63B97A08A2DF7CCE3AF842BB6CB087B1&salt=1550477906841&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "退化",
+            "恶化",
+            "败类",
+            "堕落"
+          ],
+          "key": "degenerate"
+        },
+        {
+          "value": [
+            "颓废音乐",
+            "出版者"
+          ],
+          "key": "Degenerate music"
+        },
+        {
+          "value": [
+            "简并引物",
+            "兼并引物",
+            "引子对",
+            "化性引子"
+          ],
+          "key": "degenerate primer"
+        }
+      ],
+      "query": "degenerate",
+      "translation": [
+        "简并"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=degenerate"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=degenerate"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "SAT",
+          "IELTS",
+          "CET6",
+          "GRE",
+          "考研"
+        ],
+        "us-phonetic": "dɪ'dʒɛnəret",
+        "phonetic": "dɪ'dʒen(ə)rət",
+        "uk-phonetic": "dɪ'dʒen(ə)rət",
+        "wfs": [
+          {
+            "wf": {
+              "name": "过去式",
+              "value": "degenerated"
+            }
+          },
+          {
+            "wf": {
+              "name": "过去分词",
+              "value": "degenerated"
+            }
+          },
+          {
+            "wf": {
+              "name": "现在分词",
+              "value": "degenerating"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=degenerate&langType=en&sign=F91C94313F77D4732194F3CEEF7B7003&salt=1550477906841&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "vt. 使退化；恶化",
+          "vi. 退化；堕落",
+          "adj. 退化的；堕落的",
+          "n. 堕落的人"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=degenerate&langType=en&sign=F91C94313F77D4732194F3CEEF7B7003&salt=1550477906841&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=degenerate&langType=en&sign=F91C94313F77D4732194F3CEEF7B7003&salt=1550477906841&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "hello",
+    "queryHistory": [
+      "2019-02-18 16:29:04"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E4%BD%A0%E5%A5%BD&langType=zh-CHS&sign=6EF8923B74620B38A2A7B4BC5DFE8A67&salt=1550478544345&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "你好",
+            "您好",
+            "哈啰",
+            "喂"
+          ],
+          "key": "Hello"
+        },
+        {
+          "value": [
+            "凯蒂猫",
+            "昵称",
+            "吉蒂猫",
+            "匿称"
+          ],
+          "key": "Hello Kitty"
+        },
+        {
+          "value": [
+            "哈乐哈乐",
+            "乐扣乐扣"
+          ],
+          "key": "Hello Bebe"
+        }
+      ],
+      "query": "hello",
+      "translation": [
+        "你好"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=hello"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=hello"
+      },
+      "basic": {
+        "exam_type": [
+          "初中"
+        ],
+        "us-phonetic": "helˈō",
+        "phonetic": "həˈləʊ",
+        "uk-phonetic": "həˈləʊ",
+        "wfs": [
+          {
+            "wf": {
+              "name": "复数",
+              "value": "hellos或helloes"
+            }
+          },
+          {
+            "wf": {
+              "name": "过去式",
+              "value": "helloed"
+            }
+          },
+          {
+            "wf": {
+              "name": "过去分词",
+              "value": "helloed"
+            }
+          },
+          {
+            "wf": {
+              "name": "现在分词",
+              "value": "helloing"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=hello&langType=en&sign=E24D745F420810B76DD04D1204769610&salt=1550478544345&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "int. 喂；哈罗",
+          "n. 表示问候， 惊奇或唤起注意时的用语",
+          "n. (Hello)人名；(法)埃洛"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=hello&langType=en&sign=E24D745F420810B76DD04D1204769610&salt=1550478544345&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=hello&langType=en&sign=E24D745F420810B76DD04D1204769610&salt=1550478544345&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "dimension",
+    "queryHistory": [
+      "2019-02-19 09:51:08"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E7%BB%B4&langType=zh-CHS&sign=E0CB7ED48E650B4D96C0F628C12C4DD2&salt=1550541068559&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "尺寸",
+            "体积",
+            "维度",
+            "外形尺寸"
+          ],
+          "key": "Dimension"
+        },
+        {
+          "value": [
+            "分形维数",
+            "分数维",
+            "分维",
+            "分维数"
+          ],
+          "key": "fractal dimension"
+        },
+        {
+          "value": [
+            "豪斯多夫维数",
+            "豪斯多夫维",
+            "豪斯道夫维数",
+            "夫维度"
+          ],
+          "key": "Hausdorff dimension"
+        }
+      ],
+      "query": "dimension",
+      "translation": [
+        "维"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=dimension"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=dimension"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "高中",
+          "SAT",
+          "GMAT",
+          "IELTS",
+          "CET6",
+          "CET4",
+          "商务英语",
+          "考研"
+        ],
+        "us-phonetic": "dəˈmɛnʃən, daɪ-",
+        "phonetic": "dʌɪˈmɛnʃ(ə)n",
+        "uk-phonetic": "dʌɪˈmɛnʃ(ə)n",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=dimension&langType=en&sign=AE89BFAAE5CF330F33C79BB6A473503B&salt=1550541068559&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 方面;[数] 维；尺寸；次元；容积 vt. 标出尺寸",
+          "adj. 规格的"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=dimension&langType=en&sign=AE89BFAAE5CF330F33C79BB6A473503B&salt=1550541068559&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=dimension&langType=en&sign=AE89BFAAE5CF330F33C79BB6A473503B&salt=1550541068559&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "wizard",
+    "queryHistory": [
+      "2019-02-19 09:58:13"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%90%91%E5%AF%BC&langType=zh-CHS&sign=3C2CAF1433AEDB5E71B01DE3CF3F319A&salt=1550541493247&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "巫师",
+            "精灵",
+            "向导",
+            "安装向导"
+          ],
+          "key": "Wizard"
+        },
+        {
+          "value": [
+            "设置向导",
+            "安装向导",
+            "设定精灵",
+            "安装精灵"
+          ],
+          "key": "Setup Wizard"
+        },
+        {
+          "value": [
+            "配置向导",
+            "组态精灵",
+            "配置助手",
+            "此向导配置重要选项"
+          ],
+          "key": "Configuration Wizard"
+        }
+      ],
+      "query": "wizard",
+      "translation": [
+        "向导"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=wizard"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=wizard"
+      },
+      "basic": {
+        "us-phonetic": "'wɪzɚd",
+        "phonetic": "'wɪzəd",
+        "uk-phonetic": "'wɪzəd",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=wizard&langType=en&sign=D115948622A334DF441A0E0A3CC73B8E&salt=1550541493247&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 男巫；术士；奇才；向导程序",
+          "adj. 男巫的；巫术的"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=wizard&langType=en&sign=D115948622A334DF441A0E0A3CC73B8E&salt=1550541493247&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=wizard&langType=en&sign=D115948622A334DF441A0E0A3CC73B8E&salt=1550541493247&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "substituion",
+    "queryHistory": [
+      "2019-02-19 11:06:26"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=substituion&langType=zh-CHS&sign=7E8BC71E5094F6B1327EB440ED4172B5&salt=1550545586783&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "完全替代品"
+          ],
+          "key": "perfect substituion"
+        },
+        {
+          "value": [
+            "变数替换"
+          ],
+          "key": "variable substituion"
+        },
+        {
+          "value": [
+            "替身门"
+          ],
+          "key": "Substituion Gate"
+        }
+      ],
+      "query": "substituion",
+      "translation": [
+        "substituion"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=substituion"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=substituion"
+      },
+      "basic": null,
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=substituion&langType=en&sign=7E8BC71E5094F6B1327EB440ED4172B5&salt=1550545586783&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "truncate",
+    "queryHistory": [
+      "2019-02-19 11:16:43"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%88%AA%E6%96%AD&langType=zh-CHS&sign=31B32E5CC1C048B3C79B72C5070D72C2&salt=1550546203685&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "截断",
+            "截取",
+            "截断文件",
+            "截形的"
+          ],
+          "key": "truncate"
+        },
+        {
+          "value": [
+            "裁剪缓存",
+            "缩减缓存",
+            "截断缓存",
+            "扩充缓存"
+          ],
+          "key": "Truncate Cache"
+        },
+        {
+          "value": [
+            "平截翅"
+          ],
+          "key": "truncate wing"
+        }
+      ],
+      "query": "truncate",
+      "translation": [
+        "截断"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=truncate"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=truncate"
+      },
+      "basic": {
+        "exam_type": [
+          "GRE"
+        ],
+        "us-phonetic": "trʌŋ'ket",
+        "phonetic": "trʌŋ'keɪt; 'trʌŋ-",
+        "uk-phonetic": "trʌŋ'keɪt; 'trʌŋ-",
+        "wfs": [
+          {
+            "wf": {
+              "name": "过去式",
+              "value": "truncated"
+            }
+          },
+          {
+            "wf": {
+              "name": "过去分词",
+              "value": "truncated"
+            }
+          },
+          {
+            "wf": {
+              "name": "现在分词",
+              "value": "truncating"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=truncate&langType=en&sign=AEA2704CDA43AB8E0C496AC4404E57FC&salt=1550546203685&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "adj. 截短的；被删节的",
+          "vt. 把…截短；缩短；使成平面"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=truncate&langType=en&sign=AEA2704CDA43AB8E0C496AC4404E57FC&salt=1550546203685&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=truncate&langType=en&sign=AEA2704CDA43AB8E0C496AC4404E57FC&salt=1550546203685&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "dispose",
+    "queryHistory": [
+      "2019-02-19 13:23:30"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%9C%89&langType=zh-CHS&sign=325220757D9890795779903A5E047FBD&salt=1550553810576&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "query": "dispose",
+      "translation": [
+        "有"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=fr&q=dispose"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=fr&q=dispose"
+      },
+      "l": "fr2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=dispose&langType=fr&sign=DA82BD9EE4EDBE5D1850834CCE741D45&salt=1550553810576&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "neural",
+    "queryHistory": [
+      "2019-02-19 13:43:12"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E7%A5%9E%E7%BB%8F&langType=zh-CHS&sign=CAEB460F6DA911E3926A689CE1259081&salt=1550554992430&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "神经的",
+            "神经中枢的",
+            "神经系统的",
+            "神经中抠的"
+          ],
+          "key": "neural"
+        },
+        {
+          "value": [
+            "神经脊",
+            "神经嵴",
+            "神经冠",
+            "神经"
+          ],
+          "key": "neural crest"
+        },
+        {
+          "value": [
+            "神经板",
+            "髓板",
+            "椎板",
+            "翻译"
+          ],
+          "key": "Neural plate"
+        }
+      ],
+      "query": "neural",
+      "translation": [
+        "神经"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=neural"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=neural"
+      },
+      "basic": {
+        "exam_type": [
+          "SAT",
+          "GMAT",
+          "IELTS",
+          "GRE"
+        ],
+        "us-phonetic": "'nʊrəl",
+        "phonetic": "'njʊər(ə)l",
+        "uk-phonetic": "'njʊər(ə)l",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=neural&langType=en&sign=BFDC7146DC5D85BF36C540BBF12062C1&salt=1550554992430&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "adj. 神经的；神经系统的；背的；神经中枢的",
+          "n. (Neural)人名；(捷)诺伊拉尔"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=neural&langType=en&sign=AB57373F3F1DB2864ACB5809A9BEAB46&salt=1550554992431&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=neural&langType=en&sign=BFDC7146DC5D85BF36C540BBF12062C1&salt=1550554992430&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "predictions",
+    "queryHistory": [
+      "2019-02-19 13:43:22"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E9%A2%84%E6%B5%8B&langType=zh-CHS&sign=92B30CF40DFDBEC60657030D39088D85&salt=1550555003044&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "预测",
+            "假定",
+            "预言",
+            "预测学"
+          ],
+          "key": "predictions"
+        },
+        {
+          "value": [
+            "做预测",
+            "作出预测",
+            "作预测",
+            "预测"
+          ],
+          "key": "make predictions"
+        },
+        {
+          "value": [
+            "预测评估"
+          ],
+          "key": "Assessing predictions"
+        }
+      ],
+      "query": "predictions",
+      "translation": [
+        "预测"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=predictions"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=predictions"
+      },
+      "basic": {
+        "exam_type": [
+          "GMAT",
+          "IELTS",
+          "初中",
+          "GRE",
+          "商务英语"
+        ],
+        "us-phonetic": "prɪ'dɪkʃən",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=predictions&langType=en&sign=21EC6C53828B0A032FF2E5038D70B777&salt=1550555003044&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 预测，预言（prediction复数形式）"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=predictions&langType=en&sign=21EC6C53828B0A032FF2E5038D70B777&salt=1550555003044&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=predictions&langType=en&sign=21EC6C53828B0A032FF2E5038D70B777&salt=1550555003044&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
   }
 ]
