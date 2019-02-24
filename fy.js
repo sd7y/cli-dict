@@ -7,7 +7,7 @@ var colors = require( "colors");
 var program = require('commander');
 var child_process = require('child_process');
 
-const WORD_LIST_FILE = './word-list.json';
+const WORD_LIST_FILE = __dirname + '/word-list.json';
 
 program
   .version(packageJson.version)
@@ -35,6 +35,8 @@ if (program.list) {
 function queryWord(query) {
     var appKey = process.env.FY_API_YOUDAO_APP_KEY;
     var key = process.env.FY_API_YOUDAO_KEY;
+    console.log(appKey);
+    console.log(key);
     var salt = (new Date).getTime();
     var from = '';
     var to = '';
@@ -152,7 +154,7 @@ function showWordList() {
 
 function syncWordList() {
     var exec = child_process.exec;
-    var cmdStr = 'git add ' + WORD_LIST_FILE + ' && git commit -m "sync word list" && git push';
+    var cmdStr = 'cd ' + __dirname + ' && git add ' + WORD_LIST_FILE + ' && git commit -m "sync word list" && git push';
     console.log(cmdStr);
     exec(cmdStr, function(err,stdout,stderr){
         console.log(stdout);
