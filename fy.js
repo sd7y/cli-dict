@@ -76,7 +76,9 @@ function queryWord(query) {
         } else {
             if (basic) {
                 console.log(('\n' + query + ': ').yellow + translation.join(', ') + (' [ ' + basic['phonetic'] + ' ]' + ', [ ' + basic['uk-phonetic'] + ' ]' + ', [ ' + basic['us-phonetic'] + ' ]').yellow,  webdict.url.gray, ((basic.exam_type || []).join(',')).gray);
-                console.log((l === 'EN2zh-CHS' ? speakUrl : tSpeakUrl).gray);
+                let enSpeakUrl = l.toLowerCase() === 'en2zh-chs' ? speakUrl : tSpeakUrl;
+                console.log(enSpeakUrl.gray);
+                soundByUrl(query, enSpeakUrl);
                 for (var i = 0; i < basic.explains.length; i++) {
                     console.log('    ' + basic.explains[i]);
                 }
@@ -157,6 +159,15 @@ function syncWordList() {
     exec(cmdStr, function(err,stdout,stderr){
         console.log(stdout);
         console.log(stderr);
+    });
+}
+
+function soundByUrl(word, url) {
+    var exec = child_process.exec;
+    var cmdStr = 'curl \'' + url + '\' -o /tmp/' + word + '.mp3 && mpg123 /tmp/' + word + '.mp3';
+    exec(cmdStr, function(err,stdout,stderr){
+        // console.log(stdout);
+        // console.log(stderr);
     });
 }
 
