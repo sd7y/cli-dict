@@ -162,12 +162,16 @@ function syncWordList() {
     });
 }
 
-function soundByUrl(word, url) {
+function soundByUrl(word, url, isCached) {
     var exec = child_process.exec;
     var cmdStr = 'curl \'' + url + '\' -o /tmp/' + word + '.mp3 && mpg123 /tmp/' + word + '.mp3';
+    if (isCached) {
+        cmdStr = 'mpg123 /tmp/' + word + '.mp3';
+    }
     exec(cmdStr, function(err,stdout,stderr){
         // console.log(stdout);
         // console.log(stderr);
+        soundByUrl(word, url, true);
     });
 }
 
