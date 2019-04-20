@@ -194,7 +194,7 @@ function syncWordList() {
     execCommand('cp ./word-list.json ./.word-list.json');
 
     // git push
-    execCommand('git add ' + WORD_LIST_FILE + ' && git commit -m "sync word list" && git push', function(err, stdout, stderr){
+    execCommand('git add ' + WORD_LIST_FILE_SYNC + ' && git commit -m "sync word list" && git push', function(err, stdout, stderr){
         console.log(stdout);
         console.log(stderr);
     });
