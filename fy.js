@@ -7,7 +7,8 @@ var colors = require( "colors");
 var program = require('commander');
 var child_process = require('child_process');
 
-const WORD_LIST_FILE = './word-list.json';
+const WORD_LIST_FILE = './.word-list.json';
+const WORD_LIST_FILE_SYNC = './word-list.json';
 
 program
   .version(packageJson.version)
@@ -103,7 +104,7 @@ function queryWord(query) {
 
 function updateWordList(word, result) {
     var item;
-    var wordList = readWordList();
+    var wordList = readLocalWordList();
 
     for (var i = 0; i < wordList.length; i++) {
         if (word === wordList[i].word) {
@@ -122,21 +123,37 @@ function updateWordList(word, result) {
     }
     console.log(('Query history: ' + item.queryHistory.length), item.queryHistory.join(', ').gray);
 
-    writeWordList(wordList);
+    writeLocalWordList(wordList);
 }
 
-function writeWordList(wordList) {
-    fs.writeFileSync(WORD_LIST_FILE, JSON.stringify(wordList, null, 2));
+function writeLocalWordList(wordList) {
+    writeWordList(wordList, WORD_LIST_FILE);
 }
 
-function readWordList() {
-    var wordList = fs.readFileSync(WORD_LIST_FILE, 'utf8');
+function writeSyncWordList(wordList) {
+    writeWordList(wordList, WORD_LIST_FILE_SYNC);
+}
+
+function writeWordList(wordList, file) {
+    fs.writeFileSync(file, JSON.stringify(wordList, null, 2));
+}
+
+function readLocalWordList() {
+    return readWordList(WORD_LIST_FILE);
+}
+function readSyncWordList() {
+    return readWordList(WORD_LIST_FILE_SYNC);
+}
+
+function readWordList(file) {
+    var wordList = fs.readFileSync(file, 'utf8');
     wordList = wordList ? JSON.parse(wordList) : [];
     return wordList;
 }
 
+
 function showWordList() {
-    var wordList = readWordList();
+    var wordList = readLocalWordList();
 
     wordList = wordList.sort(function(a, b) {
         if (a.queryHistory.length === b.queryHistory.length) {
@@ -153,30 +170,60 @@ function showWordList() {
 }
 
 function syncWordList() {
-    var exec = child_process.exec;
-    var cmdStr = 'git add ' + WORD_LIST_FILE + ' && git commit -m "sync word list" && git push';
-    console.log(cmdStr);
-    exec(cmdStr, function(err,stdout,stderr){
+
+    execCommand('git pull');
+
+    // merge the .word-list.json to word-list.json
+    var localWordList = readLocalWordList();
+    var syncWordList = readSyncWordList();
+
+    var syncWord, localWord;
+    var syncWordMap = {};
+    for (syncWord in syncWordList) {
+        syncWordMap[syncWord.word] = syncWord;
+    }
+    for (localWord in localWordList) {
+        if (!syncWordMap[localWord.word]) {
+            syncWordList.push(localWord);
+        }
+    }
+
+    writeSyncWordList(syncWord);
+    
+    // copy the word-list.json to .word-list.json
+    execCommand('cp ./word-list.json ./.word-list.json');
+
+    // git push
+    execCommand('git add ' + WORD_LIST_FILE + ' && git commit -m "sync word list" && git push', function(err, stdout, stderr){
         console.log(stdout);
         console.log(stderr);
     });
 }
 
 function soundByUrl(word, url, isCached) {
-    var exec = child_process.exec;
     var cmdStr = 'curl \'' + url + '\' -o /tmp/' + word + '.mp3 && mpg123 /tmp/' + word + '.mp3';
     if (isCached) {
         cmdStr = 'mpg123 /tmp/' + word + '.mp3';
     }
-    exec(cmdStr, function(err,stdout,stderr){
+    execCommand(cmdStr, function(err,stdout,stderr){
         // console.log(stdout);
         // console.log(stderr);
         soundByUrl(word, url, true);
     });
 }
+/**
+ * execute a shell command
+ * @param {*} command shell command
+ * @param {*} callback 
+ * e.g: execCommand('echo "abc"', function(err, stdout, stoerr) {...});
+ */
+function execCommand(command, callback) {
+    console.log(command);
+    child_process.exec(command, callback);
+}
 
 function deleteWord(word) {
-    var wordList = readWordList();
+    var wordList = readLocalWordList();
     var hasDeleted = false;
     for (var i = 0; i < wordList.length; i++) {
         if (wordList[i].word === word) {
@@ -184,7 +231,7 @@ function deleteWord(word) {
             hasDeleted = true;
         }
     }
-    writeWordList(wordList);
+    writeLocalWordList(wordList);
     // showWordList();
     if (hasDeleted) {
         console.log('The "' + word + '" has been successfully deleted.');

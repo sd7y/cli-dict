@@ -1,2 +1,5 @@
 .vscode/
 node_modules/
+.word-list.json
+.sound/*
+!.sound/.keeper
