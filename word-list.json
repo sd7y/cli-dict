@@ -28474,5 +28474,91 @@
       "l": "en2zh-CHS",
       "speakUrl": "http://openapi.youdao.com/ttsapi?q=interactive&langType=en&sign=D3F34631C6B7200B639302AA4598888F&salt=1555667131452&voice=4&format=mp3&appKey=26b9cf8010d46779"
     }
+  },
+  {
+    "word": "enhance",
+    "queryHistory": [
+      "2019-04-20 23:29:00"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%A2%9E%E5%BC%BA&langType=zh-CHS&sign=660761F747E76AD0276E48A245BA585B&salt=1555774137968&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "增进友谊"
+          ],
+          "key": "enhance friendship"
+        },
+        {
+          "value": [
+            "药效增强",
+            "改善",
+            "增加",
+            "增强药水效能"
+          ],
+          "key": "Enhance Potions"
+        },
+        {
+          "value": [
+            "加强监管"
+          ],
+          "key": "enhance supervision"
+        }
+      ],
+      "query": "enhance",
+      "translation": [
+        "增强"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=enhance"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=enhance"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "SAT",
+          "GMAT",
+          "IELTS",
+          "CET6",
+          "GRE",
+          "CET4",
+          "商务英语",
+          "考研"
+        ],
+        "us-phonetic": "ɪn'hæns",
+        "phonetic": "ɪn'hɑːns; -hæns; en-",
+        "uk-phonetic": "ɪn'hɑːns; -hæns; en-",
+        "wfs": [
+          {
+            "wf": {
+              "name": "过去式",
+              "value": "enhanced"
+            }
+          },
+          {
+            "wf": {
+              "name": "过去分词",
+              "value": "enhanced"
+            }
+          },
+          {
+            "wf": {
+              "name": "现在分词",
+              "value": "enhancing"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=enhance&langType=en&sign=DC7E0107CBFECCF18677BE7F55AC92F1&salt=1555774137968&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "vt. 提高；加强；增加"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=enhance&langType=en&sign=DC7E0107CBFECCF18677BE7F55AC92F1&salt=1555774137968&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=enhance&langType=en&sign=DC7E0107CBFECCF18677BE7F55AC92F1&salt=1555774137968&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
   }
 ]
