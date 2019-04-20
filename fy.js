@@ -171,7 +171,10 @@ function showWordList() {
 
 function syncWordList() {
 
-    execCommand('git pull');
+    execCommand('git pull', function(err, stdout, stderr) {
+        console.log(stdout);
+        console.log(stderr);
+    });
 
     // merge the .word-list.json to word-list.json
     var localWordList = readLocalWordList();
@@ -179,16 +182,20 @@ function syncWordList() {
 
     var syncWord, localWord;
     var syncWordMap = {};
-    for (syncWord in syncWordList) {
+    var i, len;
+    for (i = 0, len = syncWordList.length; i < len; i++) {
+        syncWord = syncWordList[i];
         syncWordMap[syncWord.word] = syncWord;
     }
-    for (localWord in localWordList) {
+
+    // TODO should merge the query history
+    for (i = 0, len = localWordList.length; i < len; i++) {
+        localWord = localWordList[i];
         if (!syncWordMap[localWord.word]) {
             syncWordList.push(localWord);
         }
     }
-
-    writeSyncWordList(syncWord);
+    writeSyncWordList(syncWordList);
     
     // copy the word-list.json to .word-list.json
     execCommand('cp ./word-list.json ./.word-list.json');
@@ -219,7 +226,7 @@ function soundByUrl(word, url, isCached) {
  */
 function execCommand(command, callback) {
     console.log(command);
-    child_process.exec(command, callback);
+    child_process.execSync(command, callback);
 }
 
 function deleteWord(word) {

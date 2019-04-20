@@ -20,3 +20,13 @@ alias fy='<your path>/fy.sh'
 ## Instruction for use
 
 Please refer to the `fy --help`
+
+## TODO
+
+- can delete the remote word-list
+- merge the query history
+- cache the query result to local
+- cache the sound to local
+- add the 'Ebbinghaus Forgetting Curve'
+- will show a error when execute 'fy -s' if the word-list.json is not modified
+- if the .word-list.json is not exists or it is emptied, then execute 'fy -l' will show a error
