@@ -28560,5 +28560,48 @@
       "l": "en2zh-CHS",
       "speakUrl": "http://openapi.youdao.com/ttsapi?q=enhance&langType=en&sign=DC7E0107CBFECCF18677BE7F55AC92F1&salt=1555774137968&voice=4&format=mp3&appKey=26b9cf8010d46779"
     }
+  },
+  {
+    "word": "this is a test",
+    "queryHistory": [
+      "2019-04-20 23:31:54"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95&langType=zh-CHS&sign=CFBF43D1C436B173F7EB1BA829B4410E&salt=1555774314654&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "web": [
+        {
+          "value": [
+            "新增"
+          ],
+          "key": "This is a test"
+        },
+        {
+          "value": [
+            "说明视频监视器"
+          ],
+          "key": "this is a test yuandaima"
+        },
+        {
+          "value": [
+            "蛛丝马迹露玄机"
+          ],
+          "key": "This Is Only a Test"
+        }
+      ],
+      "query": "this is a test",
+      "translation": [
+        "这是一个测试"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=this+is+a+test"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=this+is+a+test"
+      },
+      "basic": null,
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=this+is+a+test&langType=en&sign=681BFA239F48CB6F81F416EFA7FEA6C1&salt=1555774314654&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
   }
 ]
