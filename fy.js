@@ -140,9 +140,9 @@ function showWordList() {
 
     wordList = wordList.sort(function(a, b) {
         if (a.queryHistory.length === b.queryHistory.length) {
-            return new Date(a.queryHistory[a.queryHistory.length - 1]).getTime() < new Date(b.queryHistory[b.queryHistory.length - 1]).getTime();
+            return new Date(b.queryHistory[a.queryHistory.length - 1]).getTime() - new Date(a.queryHistory[b.queryHistory.length - 1]).getTime();
         }
-        return a.queryHistory.length < b.queryHistory.length;
+        return b.queryHistory.length - a.queryHistory.length;
     });
 
     for (var i = 0; i < wordList.length; i++) {
