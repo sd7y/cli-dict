@@ -32,10 +32,24 @@ if (program.list) {
         deleteWord(program.delete);
     }
 } else {
-    queryWord(program.args.join(' ').toLowerCase(), {
+    let query = program.args.join(' ').toLowerCase();
+    let options = {
         noSound: program.quiet || process.env.FY_QUIET === 'true',
         oneLine: program.oneline || process.env.FY_ONELINE === 'true'
-    });
+    };
+    queryWordFromLocal(query, options) || queryWord(query, options);
+}
+
+function queryWordFromLocal(query, options) {
+    let wordList = readLocalWordList();
+    for (var i = 0; i < wordList.length; i++) {
+        if (wordList[i].word === query) {
+            resultProcessor(wordList[i].result, options);
+            return true;
+        }
+    }
+
+    return false;
 }
 
 function queryWord(query, options) {
@@ -66,52 +80,56 @@ function queryWord(query, options) {
     request(apiOptions, function (error, response, body) {
         if (error) throw new Error(error);
         if (program.json) console.log(body);
-        var errorCode = body.errorCode; // 错误返回码: 一定存在
-        var query = body.query; // 源语言: 查询正确时，一定存在
-        var translation = body.translation; // 翻译结果: 查询正确时一定存在
-        var basic = body.basic; // 词义: 基本词典,查词时才有
-        var web = body.web; // 词义: 网络释义，该结果不一定存在
-        var l = body.l; // 源语言和目标语言: 一定存在
-        var dict = body.dict; // 词典deeplink: 查询语种为支持语言时，存在
-        var webdict = body.webdict; // webdeeplink: 查询语种为支持语言时，存在
-        var tSpeakUrl = body.tSpeakUrl; // 翻译结果发音地址: 翻译成功一定存在
-        var speakUrl = body.speakUrl; // 源语言发音地址: 翻译成功一定存在
-
-        if (errorCode !== '0') {
-            console.log(JSON.stringify(body).red);
-        } else {
-            let showHistory = true;
-            if (options.oneLine) {
-                console.log(body.translation.join('; '), body.basic ? body.basic.explains.join('; ') : '');
-                showHistory = false;
-            } else {
-                if (basic) {
-                    console.log(('\n' + query + ': ').yellow + translation.join(', ') + (' [ ' + basic['phonetic'] + ' ]' + ', [ ' + basic['uk-phonetic'] + ' ]' + ', [ ' + basic['us-phonetic'] + ' ]').yellow,  webdict.url.gray, ((basic.exam_type || []).join(',')).gray);
-                    let enSpeakUrl = l.toLowerCase() === 'en2zh-chs' ? speakUrl : tSpeakUrl;
-                    console.log(enSpeakUrl.gray);
-                    for (var i = 0; i < basic.explains.length; i++) {
-                        console.log('    ' + basic.explains[i]);
-                    }
-                    setTimeout(() => {
-                        options.noSound || soundByUrl(query, enSpeakUrl);
-                    });
-                } else {
-                    console.log(('\n' + query + ': ').yellow, translation.join(', '),  ((webdict && webdict.url) || '').gray);
-                }
-            
-                console.log();
-            
-                if (web) {
-                    console.log();
-                    for (var i = 0; i < web.length; i++) {
-                        console.log('    ' + web[i].key + ': ' + web[i].value.join(', '));
-                    }
-                }
-                console.log();
-            }
-            updateWordList(query, body, showHistory);
-        }
+        resultProcessor(body, options);
     });
+}
+
+function resultProcessor(body, options) {
+    var errorCode = body.errorCode; // 错误返回码: 一定存在
+    var query = body.query; // 源语言: 查询正确时，一定存在
+    var translation = body.translation; // 翻译结果: 查询正确时一定存在
+    var basic = body.basic; // 词义: 基本词典,查词时才有
+    var web = body.web; // 词义: 网络释义，该结果不一定存在
+    var l = body.l; // 源语言和目标语言: 一定存在
+    var dict = body.dict; // 词典deeplink: 查询语种为支持语言时，存在
+    var webdict = body.webdict; // webdeeplink: 查询语种为支持语言时，存在
+    var tSpeakUrl = body.tSpeakUrl; // 翻译结果发音地址: 翻译成功一定存在
+    var speakUrl = body.speakUrl; // 源语言发音地址: 翻译成功一定存在
+
+    if (errorCode !== '0') {
+        console.log(JSON.stringify(body).red);
+    } else {
+        let showHistory = true;
+        if (options.oneLine) {
+            console.log(body.translation.join('; '), body.basic ? body.basic.explains.join('; ') : '');
+            showHistory = false;
+        } else {
+            if (basic) {
+                console.log(('\n' + query + ': ').yellow + translation.join(', ') + (' [ ' + basic['phonetic'] + ' ]' + ', [ ' + basic['uk-phonetic'] + ' ]' + ', [ ' + basic['us-phonetic'] + ' ]').yellow,  webdict.url.gray, ((basic.exam_type || []).join(',')).gray);
+                let enSpeakUrl = l.toLowerCase() === 'en2zh-chs' ? speakUrl : tSpeakUrl;
+                console.log(enSpeakUrl.gray);
+                for (var i = 0; i < basic.explains.length; i++) {
+                    console.log('    ' + basic.explains[i]);
+                }
+                setTimeout(() => {
+                    options.noSound || soundByUrl(query, enSpeakUrl);
+                });
+            } else {
+                console.log(('\n' + query + ': ').yellow, translation.join(', '),  ((webdict && webdict.url) || '').gray);
+            }
+        
+            console.log();
+        
+            if (web) {
+                console.log();
+                for (var i = 0; i < web.length; i++) {
+                    console.log('    ' + web[i].key + ': ' + web[i].value.join(', '));
+                }
+            }
+            console.log();
+        }
+        updateWordList(query, body, showHistory);
+    }
 }
 
 function updateWordList(word, result, showHistory) {
