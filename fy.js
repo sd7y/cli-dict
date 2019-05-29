@@ -17,8 +17,10 @@ program
   .option('-l, --list', 'Show the list of word.')
   .option('-s, --sync', 'Sync the word list to git.')
   .option('-d, --delete [word]', 'Delete a word from the list.')
+  .option('-q, --quiet', 'If there is -q/--quiet or env.FY_QUIET=true, then no sound.')
+  .option('--oneline', 'If there is --oneline or env.FY_ONELINE=true, then will show the result in one line.')
   .parse(process.argv);
-  
+
 if (program.list) {
     showWordList();
 } else if (program.sync) {
@@ -30,10 +32,13 @@ if (program.list) {
         deleteWord(program.delete);
     }
 } else {
-    queryWord(program.args.join(' ').toLowerCase());
+    queryWord(program.args.join(' ').toLowerCase(), {
+        noSound: program.quiet || process.env.FY_QUIET === 'true',
+        oneLine: program.oneline || process.env.FY_ONELINE === 'true'
+    });
 }
 
-function queryWord(query) {
+function queryWord(query, options) {
     var appKey = process.env.FY_API_YOUDAO_APP_KEY;
     var key = process.env.FY_API_YOUDAO_KEY;
     var salt = (new Date).getTime();
@@ -49,7 +54,7 @@ function queryWord(query) {
         to: to,
         sign: sign
     };
-    var options = {
+    var apiOptions = {
         method: 'POST',
         url: 'https://openapi.youdao.com/api',
         headers: {
@@ -58,7 +63,7 @@ function queryWord(query) {
         form: json,
         json: true
     };
-    request(options, function (error, response, body) {
+    request(apiOptions, function (error, response, body) {
         if (error) throw new Error(error);
         if (program.json) console.log(body);
         var errorCode = body.errorCode; // 错误返回码: 一定存在
@@ -75,34 +80,41 @@ function queryWord(query) {
         if (errorCode !== '0') {
             console.log(JSON.stringify(body).red);
         } else {
-            if (basic) {
-                console.log(('\n' + query + ': ').yellow + translation.join(', ') + (' [ ' + basic['phonetic'] + ' ]' + ', [ ' + basic['uk-phonetic'] + ' ]' + ', [ ' + basic['us-phonetic'] + ' ]').yellow,  webdict.url.gray, ((basic.exam_type || []).join(',')).gray);
-                let enSpeakUrl = l.toLowerCase() === 'en2zh-chs' ? speakUrl : tSpeakUrl;
-                console.log(enSpeakUrl.gray);
-                soundByUrl(query, enSpeakUrl);
-                for (var i = 0; i < basic.explains.length; i++) {
-                    console.log('    ' + basic.explains[i]);
-                }
+            let showHistory = true;
+            if (options.oneLine) {
+                console.log(body.translation.join('; '), body.basic ? body.basic.explains.join('; ') : '');
+                showHistory = false;
             } else {
-                console.log(('\n' + query + ': ').yellow, translation.join(', '),  ((webdict && webdict.url) || '').gray);
-            }
-        
-            console.log();
-        
-            if (web) {
-                console.log();
-                for (var i = 0; i < web.length; i++) {
-                    console.log('    ' + web[i].key + ': ' + web[i].value.join(', '));
+                if (basic) {
+                    console.log(('\n' + query + ': ').yellow + translation.join(', ') + (' [ ' + basic['phonetic'] + ' ]' + ', [ ' + basic['uk-phonetic'] + ' ]' + ', [ ' + basic['us-phonetic'] + ' ]').yellow,  webdict.url.gray, ((basic.exam_type || []).join(',')).gray);
+                    let enSpeakUrl = l.toLowerCase() === 'en2zh-chs' ? speakUrl : tSpeakUrl;
+                    console.log(enSpeakUrl.gray);
+                    for (var i = 0; i < basic.explains.length; i++) {
+                        console.log('    ' + basic.explains[i]);
+                    }
+                    setTimeout(() => {
+                        options.noSound || soundByUrl(query, enSpeakUrl);
+                    });
+                } else {
+                    console.log(('\n' + query + ': ').yellow, translation.join(', '),  ((webdict && webdict.url) || '').gray);
                 }
+            
+                console.log();
+            
+                if (web) {
+                    console.log();
+                    for (var i = 0; i < web.length; i++) {
+                        console.log('    ' + web[i].key + ': ' + web[i].value.join(', '));
+                    }
+                }
+                console.log();
             }
-        
-            console.log();
-            updateWordList(query, body);
+            updateWordList(query, body, showHistory);
         }
     });
 }
 
-function updateWordList(word, result) {
+function updateWordList(word, result, showHistory) {
     var item;
     var wordList = readLocalWordList();
 
@@ -121,7 +133,7 @@ function updateWordList(word, result) {
         };
         wordList.push(item);
     }
-    console.log(('Query history: ' + item.queryHistory.length), item.queryHistory.join(', ').gray);
+    showHistory && console.log(('Query history: ' + item.queryHistory.length), item.queryHistory.join(', ').gray);
 
     writeLocalWordList(wordList);
 }
@@ -216,7 +228,7 @@ function soundByUrl(word, url, isCached) {
         // console.log(stdout);
         // console.log(stderr);
         soundByUrl(word, url, true);
-    });
+    }, true);
 }
 /**
  * execute a shell command
@@ -224,9 +236,12 @@ function soundByUrl(word, url, isCached) {
  * @param {*} callback 
  * e.g: execCommand('echo "abc"', function(err, stdout, stoerr) {...});
  */
-function execCommand(command, callback) {
-    console.log(command);
-    child_process.execSync(command, callback);
+function execCommand(command, callback, quiet) {
+    !quiet && console.log(command);
+    // https://stackoverflow.com/questions/30134236/use-child-process-execsync-but-keep-output-in-console
+    // TODO: this will not output any log, if there are any error then will not display
+    child_process.execSync(command, {stdio: 'ignore'});
+    callback();
 }
 
 function deleteWord(word) {
