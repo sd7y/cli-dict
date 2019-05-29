@@ -240,8 +240,8 @@ function execCommand(command, callback, quiet) {
     !quiet && console.log(command);
     // https://stackoverflow.com/questions/30134236/use-child-process-execsync-but-keep-output-in-console
     // TODO: this will not output any log, if there are any error then will not display
-    child_process.execSync(command, {stdio: 'ignore'});
-    callback();
+    child_process.execSync(command, quiet ? {stdio: 'ignore'} : {stdio: 'inherit'});
+    callback && callback();
 }
 
 function deleteWord(word) {
