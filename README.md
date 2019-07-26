@@ -11,3 +11,15 @@ https://www.tslang.cn/docs/handbook/module-resolution.html
 
 ## vscode task
 https://code.visualstudio.com/docs/editor/tasks
+
+## Todo list
+
+- 查单词
+  - [ ] 释义
+  - [ ] 读音
+  - [ ] 时态/词性变化
+- 单词表
+  - [ ] 查询历史
+  - [ ] 词频统计
+  - [ ] 同步
+- 复习计划
