@@ -1,3 +1,5 @@
+import { Sound } from "./Sound";
+
 export class Word {
     source: string;
     sound: Sound;

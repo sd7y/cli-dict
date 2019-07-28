@@ -1,4 +1,4 @@
-class Sound {
+export class Sound {
     url: string;
 
     constructor(url: string) {
