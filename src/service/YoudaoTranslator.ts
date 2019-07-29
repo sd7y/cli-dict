@@ -24,7 +24,7 @@ export class YoudaoTranslator implements Translator {
         var sign = StringUtils.md5(str1);
         var json = {
             q: query,
-            // appKey: appKey,
+            appKey: appKey,
             salt: salt,
             from: from,
             to: to,
@@ -44,7 +44,8 @@ export class YoudaoTranslator implements Translator {
         };
         
         const httpsOptions: https.RequestOptions = {
-            hostname: 'openapi.youdao.com',
+            hostname: 'localhost',
+            port: 4443,
             path: '/api',
             method: 'POST',
             headers: {
