@@ -6,7 +6,6 @@ export class Sound {
     }
 
     speak() {
-        // TODO:
-        console.log('speak! speak! speak!');
+        console.log(this.url.gray);
     }
 }

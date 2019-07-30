@@ -1,11 +1,18 @@
 import 'colors';
 import {DateUtils as du} from './common/DateUtils';
 import {YoudaoTranslator} from './service/YoudaoTranslator'
+import { Word } from './bo/Word';
 
-console.log('hello world!'.yellow);
-
-console.log(du.dateFormat(new Date(), 'yyyy-MM-dd hh:mm:ss.S'));
+console.log(du.dateFormat(new Date(), 'yyyy-MM-dd hh:mm:ss.S').gray);
 
 let yd = new YoudaoTranslator();
 
-yd.translate('', '', '');
+yd.translate('hello', '', '', (word) => printWord(word));
+
+function printWord(word: Word) {
+    console.log((word.source + ': ').yellow + word.translation.join(', ') + (' [' + word.phonetic.join('] , [') + ']').yellow);
+    word.sound.speak();
+    for (var i = 0; i < word.explains.length; i++) {
+        console.log('    ' + word.explains[i]);
+    }
+}

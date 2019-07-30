@@ -3,13 +3,15 @@ import { Sound } from "./Sound";
 export class Word {
     source: string;
     sound: Sound;
-    description: string;
-    phoneticSymbol: string;
+    translation: string[];
+    phonetic: string[];
+    explains: string[];
 
-    constructor(source: string, soundUrl: string, phoneticSymbol: string, description: string) {
+    constructor(source: string, soundUrl: string, phonetic: string[], translation: string[], explains: string[]) {
         this.source = source;
         this.sound = new Sound(soundUrl);
-        this.description = description;
-        this.phoneticSymbol = phoneticSymbol;
+        this.translation = translation;
+        this.phonetic = phonetic;
+        this.explains = explains;
     }
 }

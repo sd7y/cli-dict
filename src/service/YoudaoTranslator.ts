@@ -4,18 +4,14 @@ import { StringUtils } from '../common/StringUtils';
 import { HttpClient } from '../common/HttpClient';
 
 export class YoudaoTranslator implements Translator {
-    translate(source: string, from: string, to: string): Word {
-        console.log('This is Youdao translator');
-        // throw new Error("Method not implemented.");
-        console.log('xx')
-        this.queryWord('hello', {});
-        return new Word('', '', '', '');
+    translate(source: string, from: string, to: string, callback: (word: Word) => void): void {
+        this.queryWord(source, callback);
     }
 
-    queryWord(query: string, options: object): void {
+    queryWord(query: string, callback: (word: Word) => void): void {
         var appKey = process.env.FY_API_YOUDAO_APP_KEY;
         var key = process.env.FY_API_YOUDAO_KEY;
-        var salt = (new Date).getTime();
+        var salt = new Date().getTime();
         var from = '';
         var to = '';
         var str1 = appKey + query + salt + key;
@@ -34,11 +30,11 @@ export class YoudaoTranslator implements Translator {
         }, null, (res) => {
             let body = '';
             res.on('data', d => body += d);
-            res.on('end', () => this.parseWord(JSON.parse(body)));
+            res.on('end', () => callback(this.parseWord(JSON.parse(body))));
         });
     }
 
-    parseWord(body: any) {
+    parseWord(body: any): Word {
         // if (!body) {
         //     return;
         // }
@@ -52,33 +48,30 @@ export class YoudaoTranslator implements Translator {
         var webdict = body.webdict; // webdeeplink: 查询语种为支持语言时，存在
         var tSpeakUrl = body.tSpeakUrl; // 翻译结果发音地址: 翻译成功一定存在
         var speakUrl = body.speakUrl; // 源语言发音地址: 翻译成功一定存在
+
+        var soundUrl = '';
+        var phonetic: string[] = [];
+        var explains: string[] = [];
+    
         if (errorCode !== '0') {
-            console.log(JSON.stringify(body).red);
+            throw new Error(JSON.stringify(body));
         } else {
-            let showHistory = true;
             if (basic) {
-                console.log(('\n' + query + ': ').yellow + translation.join(', ') + (' [ ' + basic['phonetic'] + ' ]' + ', [ ' + basic['uk-phonetic'] + ' ]' + ', [ ' + basic['us-phonetic'] + ' ]').yellow,  webdict.url.gray, ((basic.exam_type || []).join(',')).gray);
-                let enSpeakUrl = l.toLowerCase() === 'en2zh-chs' ? speakUrl : tSpeakUrl;
-                console.log(enSpeakUrl.gray);
-                for (var i = 0; i < basic.explains.length; i++) {
-                    console.log('    ' + basic.explains[i]);
-                }
-                // setTimeout(() => {
-                //     options.noSound || soundByUrl(query, enSpeakUrl);
-                // });
+                phonetic.push(basic['phonetic']);
+                phonetic.push(basic['uk-phonetic']);
+                phonetic.push(basic['us-phonetic']);
+                soundUrl = l.toLowerCase() === 'en2zh-chs' ? speakUrl : tSpeakUrl;
+                explains = basic.explains;
             } else {
-                console.log(('\n' + query + ': ').yellow, translation.join(', '),  ((webdict && webdict.url) || '').gray);
+                // console.log(('\n' + query + ': ').yellow, translation.join(', '),  ((webdict && webdict.url) || '').gray);
             }
-        
-            console.log();
         
             if (web) {
-                console.log();
                 for (var i = 0; i < web.length; i++) {
-                    console.log('    ' + web[i].key + ': ' + web[i].value.join(', '));
+                    explains.push(web[i].key + ': ' + web[i].value.join(', '));
                 }
             }
-            console.log();
         }
+        return new Word(query, soundUrl, phonetic, translation, explains);
     }
 }
