@@ -1,9 +1,7 @@
 import { Word } from '../bo/Word'
 import { Translator } from './Translator';
-import * as https from 'https';
-import * as http from 'http';
 import { StringUtils } from '../common/StringUtils';
-
+import { HttpClient } from '../common/HttpClient';
 
 export class YoudaoTranslator implements Translator {
     translate(source: string, from: string, to: string): Word {
@@ -18,11 +16,11 @@ export class YoudaoTranslator implements Translator {
         var appKey = process.env.FY_API_YOUDAO_APP_KEY;
         var key = process.env.FY_API_YOUDAO_KEY;
         var salt = (new Date).getTime();
-        var from = 'en';
-        var to = 'zh-CHS';
+        var from = '';
+        var to = '';
         var str1 = appKey + query + salt + key;
         var sign = StringUtils.md5(str1);
-        var json = {
+        var qs = {
             q: query,
             appKey: appKey,
             salt: salt,
@@ -30,40 +28,16 @@ export class YoudaoTranslator implements Translator {
             to: to,
             sign: sign
         };
-        console.log(json);
-        console.log(appKey);
-        console.log(key);
-        var apiOptions = {
-            method: 'POST',
-            url: 'https://openapi.youdao.com/api',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            form: json,
-            json: true
-        };
         
-        const httpsOptions: https.RequestOptions = {
-            hostname: 'localhost',
-            port: 4443,
-            path: '/api',
-            method: 'POST',
-            headers: {
-                // 'Content-Type': 'application/x-www-form-urlencoded'
-            },
-            
-          };
-        var req = https.request(httpsOptions, (res: http.IncomingMessage) => {
+        HttpClient.post('https://openapi.youdao.com/api', qs, {
+            'Content-Type': 'application/json'
+        }, null, (res) => {
             console.log('===================');
             console.log(res.statusCode);
+            console.log('---------------')
             res.on('data', (d) => {
                 process.stdout.write(d)
-              });
+            });
         });
-        req.on('error', (error) => {
-            console.log(error);
-        });
-        req.write(JSON.stringify(json));
-        req.end();
     }
 }

@@ -29,6 +29,7 @@ https.createServer(httpsOption, function(request, response) {
     //在end事件触发后，通过querystring.parse将post解析为真正的POST请求格式，然后向客户端返回。
     request.on('end', function () {
         // 解析参数
+        console.log(body);
         body = querystring.parse(body);  //将一个字符串反序列化为一个对象
         console.log("body:", body);
         // 设置响应头部信息及编码\<br><br>      res.writeHead(200, {'Content-Type': 'text/html; charset=utf8'});
