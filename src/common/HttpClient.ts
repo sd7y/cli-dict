@@ -7,13 +7,7 @@ export class HttpClient {
     static https(options: https.RequestOptions, body: any, callback: (res: http.IncomingMessage) => void) {
         // process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0"; // 忽略 https 证书
         
-        let req = https.request({
-            hostname: options.hostname,
-            port: options.port,
-            path: options.path,
-            method: options.method, 
-            headers: options.headers
-        }, callback);
+        let req = https.request(options, callback);
 
         req.on('error', (error) => {
             throw error;
