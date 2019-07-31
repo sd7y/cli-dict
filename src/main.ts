@@ -3,11 +3,16 @@ import {DateUtils as du} from './common/DateUtils';
 import {YoudaoTranslator} from './service/YoudaoTranslator'
 import { Word } from './bo/Word';
 
-console.log(du.dateFormat(new Date(), 'yyyy-MM-dd hh:mm:ss.S').gray);
+main();
 
-let yd = new YoudaoTranslator();
+async function main() {
+    console.log(du.dateFormat(new Date(), 'yyyy-MM-dd hh:mm:ss.S').gray);
 
-yd.translate('hello', '', '', (word) => printWord(word));
+    let yd = new YoudaoTranslator();
+
+    let word = await yd.translate('hello', '', '');
+    printWord(word);
+}
 
 function printWord(word: Word) {
     console.log((word.source + ': ').yellow + word.translation.join(', ') + (' [' + word.phonetic.join('] , [') + ']').yellow);
