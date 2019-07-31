@@ -27,7 +27,7 @@ export class YoudaoTranslator implements Translator {
         
         HttpClient.post('https://openapi.youdao.com/api', qs, {
             'Content-Type': 'application/json'
-        }, null, (res) => {
+        }, null).then(res => {
             let body = '';
             res.on('data', d => body += d);
             res.on('end', () => callback(this.parseWord(JSON.parse(body))));
