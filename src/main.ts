@@ -2,6 +2,7 @@ import 'colors';
 import {DateUtils as du} from './common/DateUtils';
 import {YoudaoTranslator} from './service/YoudaoTranslator'
 import { Word } from './bo/Word';
+import { WordStorage } from './service/WordStorage';
 
 main();
 
@@ -12,6 +13,8 @@ async function main() {
 
     let word = await yd.translate('hello', '', '');
     printWord(word);
+    WordStorage.load();
+    WordStorage.store(word);
 }
 
 function printWord(word: Word) {

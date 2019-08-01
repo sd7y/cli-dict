@@ -1,0 +1,24 @@
+[
+  {
+    "source": "hello",
+    "sound": {
+      "url": "http://openapi.youdao.com/ttsapi?q=hello&langType=en&sign=4D1B6E963DD34CCB404AB6C171E182A4&salt=1564673749639&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    },
+    "translation": [
+      "你好"
+    ],
+    "phonetic": [
+      "həˈləʊ",
+      "həˈləʊ",
+      "helˈō"
+    ],
+    "explains": [
+      "int. 喂；哈罗",
+      "n. 表示问候， 惊奇或唤起注意时的用语",
+      "n. (Hello)人名；(法)埃洛",
+      "Hello: 你好, 您好, 哈啰, 喂",
+      "Hello Kitty: 凯蒂猫, 昵称, 吉蒂猫, 匿称",
+      "Hello Bebe: 哈乐哈乐, 乐扣乐扣"
+    ]
+  }
+]
