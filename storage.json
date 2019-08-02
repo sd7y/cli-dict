@@ -20,5 +20,25 @@
       "Hello Kitty: 凯蒂猫, 昵称, 吉蒂猫, 匿称",
       "Hello Bebe: 哈乐哈乐, 乐扣乐扣"
     ]
+  },
+  {
+    "source": "hello world",
+    "sound": {
+      "url": "http://openapi.youdao.com/ttsapi?q=hello+world&langType=en&sign=B54A3AC2FDF7A38F0395870E63C800E7&salt=1564760141141&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    },
+    "translation": [
+      "你好，世界"
+    ],
+    "phonetic": [
+      null,
+      null,
+      null
+    ],
+    "explains": [
+      "你好世界",
+      "hello world: 你好世界, 开始, 别来无恙, 举个例子",
+      "Hello Kitty World: 凯蒂猫气球世界",
+      "Hello Cold World: 每天一歌"
+    ]
   }
 ]

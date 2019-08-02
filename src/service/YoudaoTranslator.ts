@@ -3,9 +3,15 @@ import { Translator } from './Translator';
 import { StringUtils } from '../common/StringUtils';
 import { HttpClient } from '../common/HttpClient';
 
-export class YoudaoTranslator implements Translator {
+export class YoudaoTranslator extends Translator {
     translate(source: string, from: string, to: string): Promise<Word> {
-        return YoudaoTranslator.queryWord(source);
+        return new Promise((resolve, reject) => {
+            YoudaoTranslator.queryWord(source).then(word => {
+                this.storage(word);
+                this.saveHistory(word);
+                resolve(word);
+            }).catch(reject);
+        });
     }
 
     static queryWord(query: string): Promise<Word> {
