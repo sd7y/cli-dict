@@ -1,26 +1,47 @@
+#!/home/alex/devp/software/node-v10.15.0-linux-x64/bin/node
+
 import 'colors';
-import {DateUtils as du} from './common/DateUtils';
 import {YoudaoTranslator} from './service/YoudaoTranslator'
-import { Word } from './bo/Word';
-import { WordStorage } from './service/WordStorage';
 import commander from 'commander';
 import { WordHelper } from './common/WordHelper';
+import { Translator } from './service/Translator';
+import { HistoryStorage } from './service/HistoryStorage';
 
 
 commander.parse(process.argv);
 
-let query = commander.args.join(' ');
+commander
+  .version('0.1.0')
+  .usage('[word] [Options]')
+  .option('-l, --list', 'Show the list of word.')
+//   .option('-s, --sync', 'Sync the word list to git.')
+  .option('-d, --delete [word]', 'Delete a word from the list.')
+//   .option('-q, --quiet', 'If there is -q/--quiet or env.FY_QUIET=true, then no sound.')
+  .option('--oneline', 'If there is --oneline or env.FY_ONELINE=true, then will show the result in one line.')
+  .parse(process.argv);
 
+let oneLine = commander.oneline || process.env.FY_ONELINE === 'true'
 
-main();
+if (commander.delete) {
+    let query = commander.args.join(' ');
+    HistoryStorage.delete(query);
+} else if (commander.list) {
+    HistoryStorage.load().forEach((history, index, array) => {
+        oneLine = true;
+        translate(history.word);
+    });
+} else {
+    let query = commander.args.join(' ');
+    translate(query);
+}
 
-async function main() {
-    console.log(du.format(new Date(), 'yyyy-MM-dd hh:mm:ss.S').gray);
+async function translate(query: string) {
 
-    let yd = new YoudaoTranslator();
-
-    let word = await yd.translate(query, '', '');
-    WordHelper.print(word);
-    WordHelper.printOneLine(word);
+    let word = await new YoudaoTranslator().translate(query, '', '');
+    if (oneLine) {
+        WordHelper.printOneLine(word);
+    } else {
+        WordHelper.print(word);
+    }
 }
 

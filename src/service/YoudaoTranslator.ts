@@ -2,16 +2,27 @@ import { Word } from '../bo/Word'
 import { Translator } from './Translator';
 import { StringUtils } from '../common/StringUtils';
 import { HttpClient } from '../common/HttpClient';
+import { WordStorage } from './WordStorage';
 
 export class YoudaoTranslator extends Translator {
     translate(source: string, from: string, to: string): Promise<Word> {
         return new Promise((resolve, reject) => {
-            YoudaoTranslator.queryWord(source).then(word => {
-                this.storage(word);
-                this.saveHistory(word);
+            let word = YoudaoTranslator.queryWordFromLocal(source);
+            if (word) {
+                Translator.saveHistory(word);
                 resolve(word);
-            }).catch(reject);
+            } else {
+                YoudaoTranslator.queryWord(source).then(word => {
+                    Translator.storage(word);
+                    Translator.saveHistory(word);
+                    resolve(word);
+                }).catch(reject);
+            }
         });
+    }
+
+    static queryWordFromLocal(query: string) {
+        return WordStorage.get(query);
     }
 
     static queryWord(query: string): Promise<Word> {

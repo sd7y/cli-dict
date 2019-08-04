@@ -15,7 +15,7 @@ export class HistoryStorage {
             list.push(history);
         }
         history.history.push(DateUtils.format(new Date(), 'yyyy-MM-dd HH:mm:ss.S'));
-        fs.writeFileSync(HistoryStorage.path, JSON.stringify(list, null, 2));
+        HistoryStorage.save(list);
     }
 
     static load(): History[] {
@@ -27,6 +27,21 @@ export class HistoryStorage {
 
     static get(word: string): History | null {
         return HistoryStorage.getHistoryByWord(word, HistoryStorage.load());
+    }
+    
+    static delete(word: string): void {
+        let list = HistoryStorage.load();
+        for (let i = 0; i < list.length; i ++) {
+            if (list[i].word === word) {
+                list.splice(i, 1);
+                break;
+            }
+        }
+        HistoryStorage.save(list);
+    }
+
+    private static save(list: History[]) {
+        fs.writeFileSync(HistoryStorage.path, JSON.stringify(list, null, 2));
     }
 
     private static getHistoryByWord(word: string, list: History[]): History | null {
