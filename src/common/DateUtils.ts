@@ -1,5 +1,5 @@
 export class DateUtils {
-    static dateFormat(date: Date, formatter: string): string {
+    static format(date: Date, formatter: string): string {
         let mapper: {[key: string]: number} = {
             'M+': date.getMonth() + 1,
             'd+': date.getDate(),

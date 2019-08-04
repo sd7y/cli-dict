@@ -15,7 +15,7 @@ let query = commander.args.join(' ');
 main();
 
 async function main() {
-    console.log(du.dateFormat(new Date(), 'yyyy-MM-dd hh:mm:ss.S').gray);
+    console.log(du.format(new Date(), 'yyyy-MM-dd hh:mm:ss.S').gray);
 
     let yd = new YoudaoTranslator();
 

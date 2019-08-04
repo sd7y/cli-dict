@@ -3,7 +3,7 @@ import * as fs from 'fs';
 
 export class WordStorage {
 
-    static path = './storage.json';
+    static path = './.data/storage.json';
 
     static store(word: Word) {
         let list = WordStorage.load();
