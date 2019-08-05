@@ -9,12 +9,10 @@ export class YoudaoTranslator extends Translator {
         return new Promise((resolve, reject) => {
             let word = YoudaoTranslator.queryWordFromLocal(source);
             if (word) {
-                Translator.saveHistory(word);
                 resolve(word);
             } else {
                 YoudaoTranslator.queryWord(source).then(word => {
                     Translator.storage(word);
-                    Translator.saveHistory(word);
                     resolve(word);
                 }).catch(reject);
             }

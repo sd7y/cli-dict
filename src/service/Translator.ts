@@ -4,10 +4,6 @@ import { HistoryStorage } from './HistoryStorage';
 import { YoudaoTranslator } from './YoudaoTranslator';
 export abstract class Translator {
 
-    // static getInstance(): Translator {
-    //     return new YoudaoTranslator();
-    // }
-
     abstract translate(source: string, from: string, to: string): Promise<Word>;
 
     static storage(word: Word): void {
