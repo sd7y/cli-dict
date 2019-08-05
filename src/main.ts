@@ -7,9 +7,6 @@ import { WordHelper } from './common/WordHelper';
 import { Translator } from './service/Translator';
 import { HistoryStorage } from './service/HistoryStorage';
 
-
-commander.parse(process.argv);
-
 commander
   .version('0.1.0')
   .usage('[word] [Options]')
@@ -22,8 +19,8 @@ commander
 
 let oneLine = commander.oneline || process.env.FY_ONELINE === 'true'
 
+let query = commander.args.join(' ').toLowerCase();
 if (commander.delete) {
-    let query = commander.args.join(' ');
     HistoryStorage.delete(query);
 } else if (commander.list) {
     HistoryStorage.load().forEach((history, index, array) => {
@@ -31,7 +28,6 @@ if (commander.delete) {
         translate(history.word);
     });
 } else {
-    let query = commander.args.join(' ');
     translate(query);
 }
 

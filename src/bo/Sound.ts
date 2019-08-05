@@ -6,6 +6,6 @@ export class Sound {
     }
 
     speak() {
-        console.log(this.url.gray);
+        console.log((this.url || '').gray);
     }
 }

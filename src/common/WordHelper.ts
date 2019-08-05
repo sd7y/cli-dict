@@ -9,6 +9,6 @@ export class WordHelper {
         }
     }
     static printOneLine(word: Word) {
-        console.log(word.translation.join('; '), word.translation.join(', ') ? word.explains.join('; ') : '');
+        console.log((word.source + ': ').yellow + word.translation.join('; '), word.translation.join(', ') ? word.explains.join('; ') : '');
     }
 }

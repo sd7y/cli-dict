@@ -14,7 +14,7 @@ export class HistoryStorage {
             history = new History(word.source, []);
             list.push(history);
         }
-        history.history.push(DateUtils.format(new Date(), 'yyyy-MM-dd HH:mm:ss.S'));
+        history.history.push(DateUtils.format(new Date(), 'yyyy-MM-dd hh:mm:ss.S'));
         HistoryStorage.save(list);
     }
 
