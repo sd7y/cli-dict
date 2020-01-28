@@ -55905,5 +55905,653 @@
       "l": "en2zh-CHS",
       "speakUrl": "http://openapi.youdao.com/ttsapi?q=almost+certainly&langType=en&sign=F42EE8C255449DC50FD546906986C5DA&salt=1578900148939&voice=4&format=mp3&appKey=26b9cf8010d46779"
     }
+  },
+  {
+    "word": "之前的",
+    "queryHistory": [
+      "2020-01-13 17:06:57"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=Before+the&langType=en&sign=3CE894011069410F5A48B6CFA1EE0624&salt=1578906417601&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "returnPhrase": [
+        "之前的"
+      ],
+      "web": [
+        {
+          "value": [
+            "Previous"
+          ],
+          "key": "之前的"
+        },
+        {
+          "value": [
+            "UNBOUNDED PRECEDING"
+          ],
+          "key": "之前的所有记录"
+        },
+        {
+          "value": [
+            "Several months before the",
+            "A few months before the",
+            "A few months ago"
+          ],
+          "key": "几个月之前的"
+        }
+      ],
+      "query": "之前的",
+      "translation": [
+        "Before the"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=%E4%B9%8B%E5%89%8D%E7%9A%84"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=%E4%B9%8B%E5%89%8D%E7%9A%84"
+      },
+      "basic": {
+        "explains": [
+          "previous",
+          "preceding"
+        ]
+      },
+      "l": "zh-CHS2en",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=%E4%B9%8B%E5%89%8D%E7%9A%84&langType=zh-CHS&sign=C91B7155A2B4A45E04D661C9AE00365B&salt=1578906417601&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "percentage",
+    "queryHistory": [
+      "2020-01-13 17:18:24"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E7%99%BE%E5%88%86%E6%AF%94&langType=zh-CHS&sign=428370E19FBC886C872EC636A5EA87AD&salt=1578907104180&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "returnPhrase": [
+        "percentage"
+      ],
+      "web": [
+        {
+          "value": [
+            "百分比",
+            "百分数",
+            "百分率",
+            "百分"
+          ],
+          "key": "Percentage"
+        },
+        {
+          "value": [
+            "百分点",
+            "一个百分点"
+          ],
+          "key": "percentage point"
+        },
+        {
+          "value": [
+            "长打率",
+            "多垒安打率",
+            "安打率"
+          ],
+          "key": "slugging percentage"
+        }
+      ],
+      "query": "percentage",
+      "translation": [
+        "百分比"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=percentage"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=percentage"
+      },
+      "basic": {
+        "exam_type": [
+          "高中",
+          "IELTS",
+          "CET4",
+          "考研"
+        ],
+        "us-phonetic": "pərˈsentɪdʒ",
+        "phonetic": "pəˈsentɪdʒ",
+        "uk-phonetic": "pəˈsentɪdʒ",
+        "wfs": [
+          {
+            "wf": {
+              "name": "复数",
+              "value": "percentages"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=percentage&langType=en&sign=8993D413B41A30D4264C9624E85E71CA&salt=1578907104180&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 百分比；百分率，百分数"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=percentage&langType=en&sign=8993D413B41A30D4264C9624E85E71CA&salt=1578907104180&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=percentage&langType=en&sign=8993D413B41A30D4264C9624E85E71CA&salt=1578907104180&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "watcher",
+    "queryHistory": [
+      "2020-01-15 11:29:05"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E8%A7%82%E5%AF%9F%E5%AE%B6&langType=zh-CHS&sign=C597EB3744CF35022212FCDB371DC14B&salt=1579058945830&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "returnPhrase": [
+        "watcher"
+      ],
+      "web": [
+        {
+          "value": [
+            "守望者",
+            "观察者",
+            "监票员"
+          ],
+          "key": "WATCHER"
+        },
+        {
+          "value": [
+            "守望者",
+            "凶手正在看着你",
+            "正义守望者",
+            "偷窥杀手"
+          ],
+          "key": "the watcher"
+        },
+        {
+          "value": [
+            "守夜者",
+            "夜巡者",
+            "夜行悍探",
+            "守夜人"
+          ],
+          "key": "night watcher"
+        }
+      ],
+      "query": "watcher",
+      "translation": [
+        "观察家"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=watcher"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=watcher"
+      },
+      "basic": {
+        "us-phonetic": "ˈwɑːtʃər",
+        "phonetic": "ˈwɒtʃə(r)",
+        "uk-phonetic": "ˈwɒtʃə(r)",
+        "wfs": [
+          {
+            "wf": {
+              "name": "复数",
+              "value": "watchers"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=watcher&langType=en&sign=C011FF93A6501BC72B4486944F07437A&salt=1579058945830&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 观察者；看守人；哨兵；（美）选举监票员"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=watcher&langType=en&sign=C011FF93A6501BC72B4486944F07437A&salt=1579058945830&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=watcher&langType=en&sign=C011FF93A6501BC72B4486944F07437A&salt=1579058945830&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "dialogue",
+    "queryHistory": [
+      "2020-01-15 16:47:22"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%AF%B9%E8%AF%9D&langType=zh-CHS&sign=48337D4C7434ED0144BB3196A7DC850A&salt=1579078042086&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "returnPhrase": [
+        "dialogue"
+      ],
+      "web": [
+        {
+          "value": [
+            "对话",
+            "对白",
+            "强强对话",
+            "直接对话"
+          ],
+          "key": "Dialogue"
+        },
+        {
+          "value": [
+            "对白作者",
+            "对于白笔者",
+            "对白笔者",
+            "对白编写者"
+          ],
+          "key": "dialogue writer"
+        },
+        {
+          "value": [
+            "苏格拉底式对话",
+            "苏格拉底对话",
+            "苏格拉底式的对话",
+            "苏格拉底对话法"
+          ],
+          "key": "Socratic dialogue"
+        }
+      ],
+      "query": "dialogue",
+      "translation": [
+        "对话"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=dialogue"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=dialogue"
+      },
+      "basic": {
+        "exam_type": [
+          "高中",
+          "初中",
+          "GRE"
+        ],
+        "us-phonetic": "ˈdaɪəlɔːɡ",
+        "phonetic": "ˈdaɪəlɒɡ",
+        "uk-phonetic": "ˈdaɪəlɒɡ",
+        "wfs": [
+          {
+            "wf": {
+              "name": "过去式",
+              "value": "dialogued"
+            }
+          },
+          {
+            "wf": {
+              "name": "过去分词",
+              "value": "dialogued"
+            }
+          },
+          {
+            "wf": {
+              "name": "现在分词",
+              "value": "dialoguing"
+            }
+          },
+          {
+            "wf": {
+              "name": "复数",
+              "value": "dialogues"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=dialogue&langType=en&sign=A98C1793BD49CA98C82CB16C3016B289&salt=1579078042086&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 对话；意见交换",
+          "vi. 对话",
+          "vt. 用对话表达"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=dialogue&langType=en&sign=A98C1793BD49CA98C82CB16C3016B289&salt=1579078042086&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=dialogue&langType=en&sign=A98C1793BD49CA98C82CB16C3016B289&salt=1579078042086&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "detection",
+    "queryHistory": [
+      "2020-01-15 18:40:12"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E6%A3%80%E6%B5%8B&langType=zh-CHS&sign=E052C306E85923318A74BD29020617BE&salt=1579084812692&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "returnPhrase": [
+        "detection"
+      ],
+      "web": [
+        {
+          "value": [
+            "检测",
+            "侦测",
+            "察觉",
+            "检波"
+          ],
+          "key": "Detection"
+        },
+        {
+          "value": [
+            "变化检测",
+            "通过相减等操作将两幅匹准图像的像素加以比较从而检测出其中物体差别的技术",
+            "变化觉察",
+            "变更检波"
+          ],
+          "key": "Change detection"
+        },
+        {
+          "value": [
+            "角检测",
+            "角点检测",
+            "角点提取",
+            "角点检测相关资源"
+          ],
+          "key": "corner detection"
+        }
+      ],
+      "query": "detection",
+      "translation": [
+        "检测"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=detection"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=detection"
+      },
+      "basic": {
+        "exam_type": [
+          "GMAT",
+          "IELTS",
+          "CET6",
+          "GRE",
+          "CET4"
+        ],
+        "us-phonetic": "dɪˈtekʃn",
+        "phonetic": "dɪˈtekʃn",
+        "uk-phonetic": "dɪˈtekʃn",
+        "wfs": [
+          {
+            "wf": {
+              "name": "复数",
+              "value": "detections"
+            }
+          }
+        ],
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=detection&langType=en&sign=B2616FB76A8E772D780FCC2C236CA325&salt=1579084812692&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 侦查，探测；发觉，发现；察觉"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=detection&langType=en&sign=B2616FB76A8E772D780FCC2C236CA325&salt=1579084812692&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=detection&langType=en&sign=B2616FB76A8E772D780FCC2C236CA325&salt=1579084812692&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "转换",
+    "queryHistory": [
+      "2020-01-17 14:29:18"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=conversion&langType=en&sign=4267EC12D964285B3E592E744E8FFF22&salt=1579242558470&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "returnPhrase": [
+        "转换"
+      ],
+      "web": [
+        {
+          "value": [
+            "conversion",
+            "convert",
+            "Transform"
+          ],
+          "key": "转换"
+        },
+        {
+          "value": [
+            "Converter",
+            "ADC",
+            "transducer",
+            "transformer"
+          ],
+          "key": "转换器"
+        },
+        {
+          "value": [
+            "FotoBatch",
+            "Magic Converter"
+          ],
+          "key": "魔法转换"
+        }
+      ],
+      "query": "转换",
+      "translation": [
+        "conversion"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=%E8%BD%AC%E6%8D%A2"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=%E8%BD%AC%E6%8D%A2"
+      },
+      "basic": {
+        "phonetic": "zhuǎn huàn",
+        "explains": [
+          "[分子生物][计] transition",
+          "transform",
+          "[计] switch",
+          "[遗] shift",
+          "convert"
+        ]
+      },
+      "l": "zh-CHS2en",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=%E8%BD%AC%E6%8D%A2&langType=zh-CHS&sign=069A70443689BAAB7F9CF160A594593E&salt=1579242558470&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "cable",
+    "queryHistory": [
+      "2020-01-19 16:00:46"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E7%94%B5%E7%BC%86&langType=zh-CHS&sign=05C762D67847DBB32FB8B55E32B59A55&salt=1579420846350&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "returnPhrase": [
+        "cable"
+      ],
+      "web": [
+        {
+          "value": [
+            "连接线",
+            "网线",
+            "电报"
+          ],
+          "key": "cable"
+        },
+        {
+          "value": [
+            "温斯·凯博",
+            "商务大臣祈维信",
+            "凯布尔",
+            "文斯·凯布尔"
+          ],
+          "key": "Vince Cable"
+        },
+        {
+          "value": [
+            "屏蔽线",
+            "屏蔽电缆",
+            "屏蔽导线",
+            "隔离线"
+          ],
+          "key": "shielded cable"
+        }
+      ],
+      "query": "cable",
+      "translation": [
+        "电缆"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=cable"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=cable"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "IELTS",
+          "CET6",
+          "CET4",
+          "商务英语",
+          "考研"
+        ],
+        "us-phonetic": "ˈkeɪbl",
+        "phonetic": "ˈkeɪbl",
+        "uk-phonetic": "ˈkeɪbl",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=cable&langType=en&sign=72A4BA0F7E02020D2AF0AFEFB39BD697&salt=1579420846350&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 缆绳；电缆；海底电报",
+          "vt. 打电报",
+          "vi. 打海底电报"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=cable&langType=en&sign=72A4BA0F7E02020D2AF0AFEFB39BD697&salt=1579420846350&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=cable&langType=en&sign=72A4BA0F7E02020D2AF0AFEFB39BD697&salt=1579420846350&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "场景",
+    "queryHistory": [
+      "2020-01-19 17:26:05"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=scenario&langType=en&sign=77616D829DDA1C2BE3D4A26F0214CE95&salt=1579425965234&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "returnPhrase": [
+        "场景"
+      ],
+      "web": [
+        {
+          "value": [
+            "Scene",
+            "setting",
+            "Scenario",
+            "museum and art gallery"
+          ],
+          "key": "场景"
+        },
+        {
+          "value": [
+            "usage scenario",
+            "Usage scenarios"
+          ],
+          "key": "使用场景"
+        },
+        {
+          "value": [
+            "New Scene"
+          ],
+          "key": "新场景"
+        }
+      ],
+      "query": "场景",
+      "translation": [
+        "scenario"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=%E5%9C%BA%E6%99%AF"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=%E5%9C%BA%E6%99%AF"
+      },
+      "basic": {
+        "phonetic": "chǎng jǐng",
+        "explains": [
+          "scene"
+        ]
+      },
+      "l": "zh-CHS2en",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=%E5%9C%BA%E6%99%AF&langType=zh-CHS&sign=751E03FB6377A1F59CAE06FA546E81E4&salt=1579425965234&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "singleton",
+    "queryHistory": [
+      "2020-01-20 11:27:27"
+    ],
+    "result": {
+      "query": "singleton",
+      "translation": [
+        "单例"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=singleton"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=singleton"
+      },
+      "l": "en2",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=singleton&langType=en&sign=B0A0593103029E616FFB52A60F7602B1&salt=1579490847128&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
+  },
+  {
+    "word": "braces",
+    "queryHistory": [
+      "2020-01-20 15:10:42"
+    ],
+    "result": {
+      "tSpeakUrl": "http://openapi.youdao.com/ttsapi?q=%E7%89%99%E5%A5%97&langType=zh-CHS&sign=A4A3BCD0BE3590F1D809D43BF3F83EB9&salt=1579504242506&voice=4&format=mp3&appKey=26b9cf8010d46779",
+      "returnPhrase": [
+        "braces"
+      ],
+      "web": [
+        {
+          "value": [
+            "吊带",
+            "花括号",
+            "裤子背带",
+            "支架"
+          ],
+          "key": "braces"
+        },
+        {
+          "value": [
+            "裤子背带"
+          ],
+          "key": "braces suspenders"
+        },
+        {
+          "value": [
+            "舌侧矫治器"
+          ],
+          "key": "Lingual Braces"
+        }
+      ],
+      "query": "braces",
+      "translation": [
+        "牙套"
+      ],
+      "errorCode": "0",
+      "dict": {
+        "url": "yddict://m.youdao.com/dict?le=eng&q=braces"
+      },
+      "webdict": {
+        "url": "http://m.youdao.com/dict?le=eng&q=braces"
+      },
+      "basic": {
+        "exam_type": [
+          "TOEFL",
+          "GMAT",
+          "CET6",
+          "GRE",
+          "考研"
+        ],
+        "us-phonetic": "'bresiz",
+        "uk-speech": "http://openapi.youdao.com/ttsapi?q=braces&langType=en&sign=CA3EA410474D67DB5FE5056CF4C955B4&salt=1579504242506&voice=5&format=mp3&appKey=26b9cf8010d46779",
+        "explains": [
+          "n. 背带；吊带（brace的复数）"
+        ],
+        "us-speech": "http://openapi.youdao.com/ttsapi?q=braces&langType=en&sign=CA3EA410474D67DB5FE5056CF4C955B4&salt=1579504242506&voice=6&format=mp3&appKey=26b9cf8010d46779"
+      },
+      "l": "en2zh-CHS",
+      "speakUrl": "http://openapi.youdao.com/ttsapi?q=braces&langType=en&sign=CA3EA410474D67DB5FE5056CF4C955B4&salt=1579504242506&voice=4&format=mp3&appKey=26b9cf8010d46779"
+    }
   }
 ]
