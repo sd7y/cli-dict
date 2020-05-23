@@ -1,12 +1,31 @@
 import { QueryService } from "./QueryService.ts";
 import { Word } from "../entities/Word.ts";
+import { TextUtils } from "../utils/TextUtils.ts";
 
 export class QueryFromBaidu implements QueryService {
     type = 'baidu';
     async query(text: string) {
-        let json = await fromBaidu(text, 'en', 'zh');
+        let from = 'zh';
+        let to = 'en';
+        if (TextUtils.isEnglish(text)) {
+            from = 'en';
+            to = 'zh';
+        }
+        let json = await fromBaidu(text, from, to);
         return jsonToWord(json);
     }
+}
+
+function assembleExchange(word: Word, exchange: any) {
+    word.done = exchange?.word_done?.join('|');
+    word.ing = exchange?.word_ing?.join('|');
+    word.past = exchange?.word_past?.join('|');
+    word.plural = exchange?.word_pl?.join('|');
+    word.third = exchange?.word_third?.join('|');
+}
+
+function assembleMeans(word: Word, means: any) {
+    means?.forEach((part: any) => word.addMeans(part.part, part.text, part.means));
 }
 
 async function jsonToWord(json: any) {
@@ -25,13 +44,15 @@ async function jsonToWord(json: any) {
         json?.dict_result?.simple_means?.symbols[0]?.ph_am,
         json?.dict_result?.collins?.word_emphasize?.replace(/\|/g, '·'));
 
-    json.dict_result.simple_means.symbols[0].parts.forEach((part: any) => word.addMeans(part.part, part.means));
+    let means = json?.dict_result?.simple_means?.symbols[0]?.parts;
 
-    word.done = json?.dict_result?.simple_means.exchange?.word_done?.join('|');
-    word.ing = json?.dict_result?.simple_means.exchange?.word_ing?.join('|');
-    word.past = json?.dict_result?.simple_means.exchange?.word_past?.join('|');
-    word.plural = json?.dict_result?.simple_means.exchange?.word_pl?.join('|');
-    word.third = json?.dict_result?.simple_means.exchange?.word_third?.join('|');
+    if (!TextUtils.isEnglish(proto)) {
+        means = json?.dict_result?.simple_means?.symbols[0]?.parts[0]?.means;
+    }
+
+    assembleMeans(word, means);
+
+    assembleExchange(word, json?.dict_result?.simple_means.exchange);
 
     word.video = json?.dict_result?.queryExplainVideo?.videoUrl;
 

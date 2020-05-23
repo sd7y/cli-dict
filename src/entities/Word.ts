@@ -25,39 +25,10 @@ export class Word {
         this.phonetics = new Phonetic(en, am, emphasize);
     }
 
-    addMeans(part: string, means: string[]) {
-        this.means.push(new Means(part, means));
+    addMeans(part: string, text: string, means: string[]) {
+        this.means.push(new Means(part, text, means));
     }
 
-    printPhonetics() {
-        return "[" + this.phonetics.emphasize + "]; "
-            + "英: [" + this.phonetics.en + "]; "
-            + "美: [" + this.phonetics.am + "]";
-    }
-
-    private stringifyExchange(title: string, value: string) {
-        if (value) {
-            return title + ": " + value + "; ";
-        }
-        return "";
-    }
-
-    stringifyExchanges() {
-        return this.stringifyExchange("原型", this.proto)
-            + this.stringifyExchange("复数", this.plural)
-            + this.stringifyExchange("三单", this.third)
-            + this.stringifyExchange("进行时", this.ing)
-            + this.stringifyExchange("过去时", this.past)
-            + this.stringifyExchange("过去分词", this.done);
-    }
-
-    stringifyMeans() {
-        let result: string[] = [];
-        this.means.forEach(mean => {
-            result.push(mean.part + " " + mean.means.join('; '));
-        });
-        return result.join('\n');
-    }
 }
 
 class Phonetic {
@@ -74,10 +45,12 @@ class Phonetic {
 
 class Means {
     part: string;
+    text: string;
     means: string[];
 
-    constructor(part: string, means: string[]) {
+    constructor(part: string, text: string, means: string[]) {
         this.part = part;
+        this.text = text;
         this.means = means;
     }
 }
