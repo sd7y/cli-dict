@@ -1,11 +1,10 @@
 
 export class Word {
-    proto: string;
-    third!: string;
-    ing!: string;
-    done!: string;
-    plural!: string;
-    past!: string;
+    text: string;
+    from: string;
+    to: string;
+
+    exchanges: Exchanges;
 
     tags: string[] = [];
     phonetics!: Phonetic;
@@ -13,8 +12,11 @@ export class Word {
 
     video!: string;
 
-    constructor(proto: string) {
-        this.proto = proto;
+    constructor(text: string, from: string, to: string) {
+        this.text = text;
+        this.from = from;
+        this.to = to;
+        this.exchanges = new Exchanges();
     }
 
     addTags(tags: string[]) {
@@ -29,6 +31,15 @@ export class Word {
         this.means.push(new Means(part, text, means));
     }
 
+}
+
+class Exchanges {
+    proto!: string;
+    third!: string;
+    ing!: string;
+    done!: string;
+    plural!: string;
+    past!: string;
 }
 
 class Phonetic {

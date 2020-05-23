@@ -1,41 +1,34 @@
 import { QueryService } from "./QueryService.ts";
 import { Word } from "../entities/Word.ts";
-import { TextUtils } from "../utils/TextUtils.ts";
 
 export class QueryFromBaidu implements QueryService {
     type = 'baidu';
-    async query(text: string) {
-        let from = 'zh';
-        let to = 'en';
-        if (TextUtils.isEnglish(text)) {
-            from = 'en';
-            to = 'zh';
-        }
+    async query(text: string, from: string, to: string) {
         let json = await fromBaidu(text, from, to);
-        return jsonToWord(json);
+        return jsonToWord(text, from, to, json);
     }
 }
 
 function assembleExchange(word: Word, exchange: any) {
-    word.done = exchange?.word_done?.join('|');
-    word.ing = exchange?.word_ing?.join('|');
-    word.past = exchange?.word_past?.join('|');
-    word.plural = exchange?.word_pl?.join('|');
-    word.third = exchange?.word_third?.join('|');
+    word.exchanges.done = exchange?.word_done?.join('|');
+    word.exchanges.ing = exchange?.word_ing?.join('|');
+    word.exchanges.past = exchange?.word_past?.join('|');
+    word.exchanges.plural = exchange?.word_pl?.join('|');
+    word.exchanges.third = exchange?.word_third?.join('|');
 }
 
 function assembleMeans(word: Word, means: any) {
     means?.forEach((part: any) => word.addMeans(part.part, part.text, part.means));
 }
 
-async function jsonToWord(json: any) {
-    let isProto = !!json?.dict_result?.simple_means?.exchange?.word_proto;
-    let proto = json?.dict_result?.simple_means?.word_name;
-    if (isProto) {
-        proto = json?.dict_result?.simple_means?.exchange?.word_proto[0];
-        // json = await fromBaidu(proto, 'en', 'zh');
-    }
-    let word = new Word(proto);
+async function jsonToWord(text: string, from: string, to: string, json: any) {
+    // let isProto = !!json?.dict_result?.simple_means?.exchange?.word_proto;
+    // let proto = json?.dict_result?.simple_means?.word_name;
+    // if (isProto) {
+    //     proto = json?.dict_result?.simple_means?.exchange?.word_proto[0];
+    //     // json = await fromBaidu(proto, 'en', 'zh');
+    // }
+    let word = new Word(text, from, to);
 
     word.addTags(json?.dict_result?.simple_means?.tags?.core);
     word.addTags(json?.dict_result?.simple_means?.tags?.other);
@@ -46,7 +39,7 @@ async function jsonToWord(json: any) {
 
     let means = json?.dict_result?.simple_means?.symbols[0]?.parts;
 
-    if (!TextUtils.isEnglish(proto)) {
+    if (from !== 'en') {
         means = json?.dict_result?.simple_means?.symbols[0]?.parts[0]?.means;
     }
 
