@@ -15,7 +15,7 @@ sudo apt-get install mpg123
 ```
 
 Optional
-- Add a alias in ~/.bashrc
+- Add an alias in ~/.bashrc
   ```
   alias fy="<your-path>/cli-dict/run.sh"
   ```
