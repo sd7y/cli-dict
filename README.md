@@ -4,14 +4,25 @@
 Fork this project and pull the code to your computer.
 `git pull <your forked address>`
 
+Install the [Deno](https://deno.land/)
+```
+curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+
 Install the mpg123 
 ```bash
 sudo apt-get install mpg123
 ```
 
+Optional
+- Add a alias in ~/.bashrc
+  ```
+  alias fy="<your-path>/cli-dict/run.sh"
+  ```
+
 ## Instruction for use
 
-Please refer to the `fy --help`
+`./run.sh hello` or `fy hello`
 
 ## TODO
 
