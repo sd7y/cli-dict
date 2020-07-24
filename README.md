@@ -26,7 +26,7 @@ Optional
 
 ## TODO
 
-- Run with HTTP server
+- Run with HTTP server, and create a shell client to access the server to get translation
 - Store the word list in mongo
 - Make a Dockerfile for [Deno](https://deno.land/), `curl -fsSL https://deno.land/x/install/install.sh | sh`
 - Make a docker compose contains Deno & Mongo
