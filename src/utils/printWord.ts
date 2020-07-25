@@ -40,7 +40,7 @@ function stringifyExchanges(word: Word) {
 function stringifyMeans(word: Word) {
     let result: string[] = [];
     word.means.forEach(mean => {
-        result.push(c.bgBlue(mean.part || "") + " " + (mean.text ? mean.text + " " : "") +  mean.means.join('; '));
+        result.push(c.bgBlue(mean.part || "  ") + " " + (mean.text ? mean.text + " " : "") +  mean.means.join('; '));
     });
     return result.join('\n');
 }
