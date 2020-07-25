@@ -22,7 +22,8 @@ Optional
 
 ## Instruction for use
 
-`./run.sh hello` or `fy hello`
+- Run directly on local: `./run.sh hello`
+- Start http server `./start-http-server.sh`
 
 ## TODO
 
