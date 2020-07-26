@@ -39,7 +39,7 @@ async function translate(req: ServerRequest) {
     req.respond({
         status: 200, 
         headers: headers,
-        body: JSON.stringify(word)
+        body: JSON.stringify(word, null, 2)
     });
 }
 
