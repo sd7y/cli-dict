@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  mongo:
+    volumes:
+      - ./upgrade/2/init-mongo-user.sh:/tmp/init-mongo-user.sh
