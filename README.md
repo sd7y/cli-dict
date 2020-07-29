@@ -1,8 +1,8 @@
 # Translation for shell
 
 ## Install
-Fork this project and pull the code to your computer.
-`git pull <your forked address>`
+Fork this project and clone the code to your computer.
+`git clone <your forked repository>`
 
 Install the [Deno](https://deno.land/)
 ```
