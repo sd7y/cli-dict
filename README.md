@@ -1,5 +1,7 @@
 # Translation for shell
 
+[中文](README_zh_CN.md)
+
 ## Install
 Fork this project and clone the code to your computer.
 `git clone <your forked repository>`
